@@ -1,0 +1,95 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "Traveler": "Emily Huston",
+        "Place": "Crater Lake",
+        "Month": "May"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.105655670166,
+          42.942601198450284
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "Traveler": "Emily Huston",
+        "Place": "Mendenhall Glacier",
+        "Month": "December"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -134.5493459701538,
+          58.43940042757667
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "Traveler": "Emily Huston",
+        "Place": "Virgin Islands National Park - Cinnamon Bay",
+        "Month": "June"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -64.7510576248169,
+          18.355095777293656
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "Traveler": "Emily Huston",
+        "Place": "Prince Edward Island National park - Covehead Lighthouse",
+        "Month": "September"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -63.14250469207764,
+          46.430166925396286
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "Traveler": "Emily Huston",
+        "Place": "Sirmilik National Park - Sermilik Glacier",
+        "Month": "July"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.08258056640625,
+          73.03942519652841
+        ]
+      }
+    }
+  ]
+}
