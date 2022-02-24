@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Emily Huston Highchart Demo</title>
+    <meta name="description" content="A simple Map of the British Isles.">
+    <meta name="author" content="LA 558 Project">
+
+    <!-- your icons here - optional... -->
+    <link rel="icon" href="favicon.ico">
+    <link rel="icon" href="favicon.svg" type="image/svg+xml">
+    <link rel="apple-touch-icon" href="favicon.png">
+
+    <!-- your styles here... -->
+    <link rel="stylesheet" href="" />
+
+    <style>
+      #container {
+    height: 500px;
+    min-width: 310px;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.loading {
+    margin-top: 10em;
+    text-align: center;
+    color: gray;
+}
+
+
+
+    </style>
+
+<script src="https://code.highcharts.com/maps/highmaps.js"></script>
+<script src="https://code.highcharts.com/maps/modules/exporting.js"></script>
+<script src="https://code.highcharts.com/mapdata/custom/british-isles.js"></script>
+
+
+  </head>
+
+  <body>
+    <div id="container"></
+
+
+    <!-- your JavScript content here as a link or within this document -->
+    <script src="js/scripts.js"></script>
+
+    <script>
+      // Prepare demo data
+// Data is joined to map using value of 'hc-key' property by default.
+// See API docs for 'joinBy' for more info on linking data and map.
+var data = [
+    ['ie-irl', 0],
+    ['gb-eng', 1],
+    ['gb-wls', 2],
+    ['gb-sct', 3],
+    ['gb-imn', 4],
+    ['gb-nir', 5]
+];
+
+// Create the chart
+Highcharts.mapChart('container', {
+    chart: {
+        map: 'custom/british-isles'
+    },
+
+    title: {
+        text: 'Highmaps basic demo'
+    },
+
+    subtitle: {
+        text: 'Source map: <a href="http://code.highcharts.com/mapdata/custom/british-isles.js">British Isles</a>'
+    },
+
+    mapNavigation: {
+        enabled: true,
+        buttonOptions: {
+            verticalAlign: 'bottom'
+        }
+    },
+
+    colorAxis: {
+        min: 0
+    },
+
+    series: [{
+        data: data,
+        name: 'Random data',
+        states: {
+            hover: {
+                color: '#BADA55'
+            }
+        },
+        dataLabels: {
+            enabled: true,
+            format: '{point.name}'
+        }
+    }]
+});
+
+
+
+    </script>
+
+  </body>
+  
+</html>
