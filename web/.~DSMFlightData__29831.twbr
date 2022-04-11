@@ -1,0 +1,3335 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20211.22.0212.1521                               -->
+<workbook source-build='2021.1.12 (20211.22.0212.1521)' source-platform='mac' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <AutoCreateAndUpdateDSDPhoneLayouts />
+    <MapboxVectorStylesAndLayers />
+    <_.fcp.MarkAnimation.true...MarkAnimation />
+    <_.fcp.ObjectModelEncapsulateLegacy.true...ObjectModelEncapsulateLegacy />
+    <_.fcp.ObjectModelExtractV2.true...ObjectModelExtractV2 />
+    <_.fcp.ObjectModelTableType.true...ObjectModelTableType />
+    <_.fcp.SchemaViewerObjectModel.true...SchemaViewerObjectModel />
+    <SetMembershipControl />
+    <SheetIdentifierTracking />
+    <WindowsPersistSimpleIdentifiers />
+    <WorksheetBackgroundTransparency />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <datasources>
+    <datasource caption='Ark1 (number-of-commercial-flights-all)' inline='true' name='federated.0kms3y20tka1201dfawz80622qje' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='number-of-commercial-flights-all' name='excel-direct.1evncqw0y4b7xg1247iqj0jqutx4'>
+            <connection class='excel-direct' cleaning='yes' compat='no' dataRefreshTime='' filename='/Users/emilyhuston/Documents/GitHub/LA558_2022/airlineData/number-of-commercial-flights-all.xls' interpretationMode='1' password='' server='' validate='no' />
+          </named-connection>
+        </named-connections>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='excel-direct.1evncqw0y4b7xg1247iqj0jqutx4' name='Ark1' table='[Ark1$]' type='table'>
+          <columns gridOrigin='A1:L368:no:A1:L368:1' header='no' lost='0' outcome='1' processed='3086'>
+            <column datatype='string' name='DateTime' ordinal='0' />
+            <column datatype='real' name='F2' ordinal='1' />
+            <column datatype='integer' name='2022 Number of flights' ordinal='2' />
+            <column datatype='integer' name='2022 7-day moving average' ordinal='3' />
+            <column datatype='integer' name='2021 7-day moving average' ordinal='4' />
+            <column datatype='integer' name='2021 Number of flights' ordinal='5' />
+            <column datatype='integer' name='2020 7-day moving average' ordinal='6' />
+            <column datatype='integer' name='2020 Number of flights' ordinal='7' />
+            <column datatype='integer' name='2019 7-day moving average' ordinal='8' />
+            <column datatype='integer' name='2019 Number of flights' ordinal='9' />
+            <column datatype='integer' name='2018 7-day moving average' ordinal='10' />
+            <column datatype='integer' name='2018 Number of flights' ordinal='11' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation connection='excel-direct.1evncqw0y4b7xg1247iqj0jqutx4' name='Ark1' table='[Ark1$]' type='table'>
+          <columns gridOrigin='A1:L368:no:A1:L368:1' header='no' lost='0' outcome='1' processed='3086'>
+            <column datatype='string' name='DateTime' ordinal='0' />
+            <column datatype='real' name='F2' ordinal='1' />
+            <column datatype='integer' name='2022 Number of flights' ordinal='2' />
+            <column datatype='integer' name='2022 7-day moving average' ordinal='3' />
+            <column datatype='integer' name='2021 7-day moving average' ordinal='4' />
+            <column datatype='integer' name='2021 Number of flights' ordinal='5' />
+            <column datatype='integer' name='2020 7-day moving average' ordinal='6' />
+            <column datatype='integer' name='2020 Number of flights' ordinal='7' />
+            <column datatype='integer' name='2019 7-day moving average' ordinal='8' />
+            <column datatype='integer' name='2019 Number of flights' ordinal='9' />
+            <column datatype='integer' name='2018 7-day moving average' ordinal='10' />
+            <column datatype='integer' name='2018 Number of flights' ordinal='11' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[Ark1]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='context'>2</attribute>
+              <attribute datatype='string' name='gridOrigin'>&quot;A1:L368:no:A1:L368:1&quot;</attribute>
+              <attribute datatype='integer' name='lost'>0</attribute>
+              <attribute datatype='integer' name='outcome'>1</attribute>
+              <attribute datatype='integer' name='processed'>3086</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>DateTime</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[DateTime]</local-name>
+            <parent-name>[Ark1]</parent-name>
+            <remote-alias>DateTime</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Ark1_9BAC2EDAABC3489AA7C767CC9101677D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F2</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[F2]</local-name>
+            <parent-name>[Ark1]</parent-name>
+            <remote-alias>F2</remote-alias>
+            <ordinal>1</ordinal>
+            <hidden>true</hidden>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Ark1_9BAC2EDAABC3489AA7C767CC9101677D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>2022 Number of flights</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[2022 Number of flights]</local-name>
+            <parent-name>[Ark1]</parent-name>
+            <remote-alias>2022 Number of flights</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Ark1_9BAC2EDAABC3489AA7C767CC9101677D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>2022 7-day moving average</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[2022 7-day moving average]</local-name>
+            <parent-name>[Ark1]</parent-name>
+            <remote-alias>2022 7-day moving average</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Ark1_9BAC2EDAABC3489AA7C767CC9101677D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>2021 7-day moving average</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[2021 7-day moving average]</local-name>
+            <parent-name>[Ark1]</parent-name>
+            <remote-alias>2021 7-day moving average</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Ark1_9BAC2EDAABC3489AA7C767CC9101677D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>2021 Number of flights</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[2021 Number of flights]</local-name>
+            <parent-name>[Ark1]</parent-name>
+            <remote-alias>2021 Number of flights</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Ark1_9BAC2EDAABC3489AA7C767CC9101677D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>2020 7-day moving average</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[2020 7-day moving average]</local-name>
+            <parent-name>[Ark1]</parent-name>
+            <remote-alias>2020 7-day moving average</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Ark1_9BAC2EDAABC3489AA7C767CC9101677D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>2020 Number of flights</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[2020 Number of flights]</local-name>
+            <parent-name>[Ark1]</parent-name>
+            <remote-alias>2020 Number of flights</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Ark1_9BAC2EDAABC3489AA7C767CC9101677D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>2019 7-day moving average</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[2019 7-day moving average]</local-name>
+            <parent-name>[Ark1]</parent-name>
+            <remote-alias>2019 7-day moving average</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Ark1_9BAC2EDAABC3489AA7C767CC9101677D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>2019 Number of flights</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[2019 Number of flights]</local-name>
+            <parent-name>[Ark1]</parent-name>
+            <remote-alias>2019 Number of flights</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Ark1_9BAC2EDAABC3489AA7C767CC9101677D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>2018 7-day moving average</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[2018 7-day moving average]</local-name>
+            <parent-name>[Ark1]</parent-name>
+            <remote-alias>2018 7-day moving average</remote-alias>
+            <ordinal>10</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Ark1_9BAC2EDAABC3489AA7C767CC9101677D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>2018 Number of flights</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[2018 Number of flights]</local-name>
+            <parent-name>[Ark1]</parent-name>
+            <remote-alias>2018 Number of flights</remote-alias>
+            <ordinal>11</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Ark1_9BAC2EDAABC3489AA7C767CC9101677D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column datatype='integer' name='[2019 Number of flights]' role='measure' type='quantitative' />
+      <column datatype='integer' name='[2020 Number of flights]' role='measure' type='quantitative' />
+      <column datatype='integer' name='[2021 Number of flights]' role='measure' type='quantitative' />
+      <column aggregation='None' datatype='integer' name='[2022 Number of flights (bin)]' role='dimension' type='quantitative'>
+        <calculation class='bin' decimals='3' formula='[2022 Number of flights]' peg='0' size='2096' />
+      </column>
+      <column datatype='integer' name='[2022 Number of flights]' role='measure' type='quantitative' />
+      <column datatype='real' hidden='true' name='[F2]' role='measure' type='quantitative' />
+      <_.fcp.ObjectModelTableType.true...column caption='Ark1' datatype='table' name='[__tableau_internal_object_id__].[Ark1_9BAC2EDAABC3489AA7C767CC9101677D]' role='measure' type='quantitative' />
+      <column-instance column='[2022 Number of flights]' derivation='Count' name='[cnt:2022 Number of flights:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[2019 Number of flights]' derivation='Sum' name='[sum:2019 Number of flights:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[2020 Number of flights]' derivation='Sum' name='[sum:2020 Number of flights:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[2021 Number of flights]' derivation='Sum' name='[sum:2021 Number of flights:qk]' pivot='key' type='quantitative' />
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <style>
+        <style-rule element='mark'>
+          <encoding attr='color' field='[:Measure Names]' type='palette'>
+            <map to='#4e79a7'>
+              <bucket>&quot;[federated.0kms3y20tka1201dfawz80622qje].[sum:2021 Number of flights:qk]&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;[federated.0kms3y20tka1201dfawz80622qje]&quot;</bucket>
+            </map>
+            <map to='#76b7b2'>
+              <bucket>&quot;[federated.0kms3y20tka1201dfawz80622qje].[sum:2020 Number of flights:qk]&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;[federated.0kms3y20tka1201dfawz80622qje].[sum:2019 Number of flights:qk]&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;[federated.0kms3y20tka1201dfawz80622qje].[cnt:2022 Number of flights:qk]&quot;</bucket>
+            </map>
+          </encoding>
+        </style-rule>
+      </style>
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;United States&quot;' />
+      </semantic-values>
+      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+        <objects>
+          <object caption='Ark1' id='Ark1_9BAC2EDAABC3489AA7C767CC9101677D'>
+            <properties context=''>
+              <relation connection='excel-direct.1evncqw0y4b7xg1247iqj0jqutx4' name='Ark1' table='[Ark1$]' type='table'>
+                <columns gridOrigin='A1:L368:no:A1:L368:1' header='no' lost='0' outcome='1' processed='3086'>
+                  <column datatype='string' name='DateTime' ordinal='0' />
+                  <column datatype='real' name='F2' ordinal='1' />
+                  <column datatype='integer' name='2022 Number of flights' ordinal='2' />
+                  <column datatype='integer' name='2022 7-day moving average' ordinal='3' />
+                  <column datatype='integer' name='2021 7-day moving average' ordinal='4' />
+                  <column datatype='integer' name='2021 Number of flights' ordinal='5' />
+                  <column datatype='integer' name='2020 7-day moving average' ordinal='6' />
+                  <column datatype='integer' name='2020 Number of flights' ordinal='7' />
+                  <column datatype='integer' name='2019 7-day moving average' ordinal='8' />
+                  <column datatype='integer' name='2019 Number of flights' ordinal='9' />
+                  <column datatype='integer' name='2018 7-day moving average' ordinal='10' />
+                  <column datatype='integer' name='2018 Number of flights' ordinal='11' />
+                </columns>
+              </relation>
+            </properties>
+          </object>
+        </objects>
+      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+    </datasource>
+    <datasource caption='Ark1 (total-number-of-flights-all)' inline='true' name='federated.0c04hsb0u1sp7j15vcni70fmhar3' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='total-number-of-flights-all' name='excel-direct.1t8su101d019fe1gdvq7f0ryqa42'>
+            <connection class='excel-direct' cleaning='yes' compat='no' dataRefreshTime='' filename='/Users/emilyhuston/Documents/GitHub/LA558_2022/airlineData/total-number-of-flights-all.xls' interpretationMode='1' password='' server='' validate='no' />
+          </named-connection>
+        </named-connections>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='excel-direct.1t8su101d019fe1gdvq7f0ryqa42' name='Ark1' table='[Ark1$]' type='table'>
+          <columns gridOrigin='A1:K368:no:A1:K368:1' header='no' lost='0' outcome='1' processed='3086'>
+            <column datatype='string' name='DateTime' ordinal='0' />
+            <column datatype='integer' name='2022 Number of flights' ordinal='1' />
+            <column datatype='integer' name='2022 7-day moving average' ordinal='2' />
+            <column datatype='integer' name='2021 7-day moving average' ordinal='3' />
+            <column datatype='integer' name='2021 Number of flights' ordinal='4' />
+            <column datatype='integer' name='2020 7-day moving average' ordinal='5' />
+            <column datatype='integer' name='2020 Number of flights' ordinal='6' />
+            <column datatype='integer' name='2019 7-day moving average' ordinal='7' />
+            <column datatype='integer' name='2019 Number of flights' ordinal='8' />
+            <column datatype='integer' name='2018 7-day moving average' ordinal='9' />
+            <column datatype='integer' name='2018 Number of flights' ordinal='10' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation connection='excel-direct.1t8su101d019fe1gdvq7f0ryqa42' name='Ark1' table='[Ark1$]' type='table'>
+          <columns gridOrigin='A1:K368:no:A1:K368:1' header='no' lost='0' outcome='1' processed='3086'>
+            <column datatype='string' name='DateTime' ordinal='0' />
+            <column datatype='integer' name='2022 Number of flights' ordinal='1' />
+            <column datatype='integer' name='2022 7-day moving average' ordinal='2' />
+            <column datatype='integer' name='2021 7-day moving average' ordinal='3' />
+            <column datatype='integer' name='2021 Number of flights' ordinal='4' />
+            <column datatype='integer' name='2020 7-day moving average' ordinal='5' />
+            <column datatype='integer' name='2020 Number of flights' ordinal='6' />
+            <column datatype='integer' name='2019 7-day moving average' ordinal='7' />
+            <column datatype='integer' name='2019 Number of flights' ordinal='8' />
+            <column datatype='integer' name='2018 7-day moving average' ordinal='9' />
+            <column datatype='integer' name='2018 Number of flights' ordinal='10' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[Ark1]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='context'>1</attribute>
+              <attribute datatype='string' name='gridOrigin'>&quot;A1:K368:no:A1:K368:1&quot;</attribute>
+              <attribute datatype='integer' name='lost'>0</attribute>
+              <attribute datatype='integer' name='outcome'>1</attribute>
+              <attribute datatype='integer' name='processed'>3086</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>DateTime</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[DateTime]</local-name>
+            <parent-name>[Ark1]</parent-name>
+            <remote-alias>DateTime</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Ark1_D812E824FF604036BECCC961D8B60DBD]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>2022 Number of flights</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[2022 Number of flights]</local-name>
+            <parent-name>[Ark1]</parent-name>
+            <remote-alias>2022 Number of flights</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Ark1_D812E824FF604036BECCC961D8B60DBD]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>2022 7-day moving average</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[2022 7-day moving average]</local-name>
+            <parent-name>[Ark1]</parent-name>
+            <remote-alias>2022 7-day moving average</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Ark1_D812E824FF604036BECCC961D8B60DBD]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>2021 7-day moving average</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[2021 7-day moving average]</local-name>
+            <parent-name>[Ark1]</parent-name>
+            <remote-alias>2021 7-day moving average</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Ark1_D812E824FF604036BECCC961D8B60DBD]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>2021 Number of flights</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[2021 Number of flights]</local-name>
+            <parent-name>[Ark1]</parent-name>
+            <remote-alias>2021 Number of flights</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Ark1_D812E824FF604036BECCC961D8B60DBD]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>2020 7-day moving average</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[2020 7-day moving average]</local-name>
+            <parent-name>[Ark1]</parent-name>
+            <remote-alias>2020 7-day moving average</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Ark1_D812E824FF604036BECCC961D8B60DBD]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>2020 Number of flights</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[2020 Number of flights]</local-name>
+            <parent-name>[Ark1]</parent-name>
+            <remote-alias>2020 Number of flights</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Ark1_D812E824FF604036BECCC961D8B60DBD]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>2019 7-day moving average</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[2019 7-day moving average]</local-name>
+            <parent-name>[Ark1]</parent-name>
+            <remote-alias>2019 7-day moving average</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Ark1_D812E824FF604036BECCC961D8B60DBD]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>2019 Number of flights</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[2019 Number of flights]</local-name>
+            <parent-name>[Ark1]</parent-name>
+            <remote-alias>2019 Number of flights</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Ark1_D812E824FF604036BECCC961D8B60DBD]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>2018 7-day moving average</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[2018 7-day moving average]</local-name>
+            <parent-name>[Ark1]</parent-name>
+            <remote-alias>2018 7-day moving average</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Ark1_D812E824FF604036BECCC961D8B60DBD]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>2018 Number of flights</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[2018 Number of flights]</local-name>
+            <parent-name>[Ark1]</parent-name>
+            <remote-alias>2018 Number of flights</remote-alias>
+            <ordinal>10</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Ark1_D812E824FF604036BECCC961D8B60DBD]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <_.fcp.ObjectModelTableType.true...column caption='Ark1' datatype='table' name='[__tableau_internal_object_id__].[Ark1_D812E824FF604036BECCC961D8B60DBD]' role='measure' type='quantitative' />
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;United States&quot;' />
+      </semantic-values>
+      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+        <objects>
+          <object caption='Ark1' id='Ark1_D812E824FF604036BECCC961D8B60DBD'>
+            <properties context=''>
+              <relation connection='excel-direct.1t8su101d019fe1gdvq7f0ryqa42' name='Ark1' table='[Ark1$]' type='table'>
+                <columns gridOrigin='A1:K368:no:A1:K368:1' header='no' lost='0' outcome='1' processed='3086'>
+                  <column datatype='string' name='DateTime' ordinal='0' />
+                  <column datatype='integer' name='2022 Number of flights' ordinal='1' />
+                  <column datatype='integer' name='2022 7-day moving average' ordinal='2' />
+                  <column datatype='integer' name='2021 7-day moving average' ordinal='3' />
+                  <column datatype='integer' name='2021 Number of flights' ordinal='4' />
+                  <column datatype='integer' name='2020 7-day moving average' ordinal='5' />
+                  <column datatype='integer' name='2020 Number of flights' ordinal='6' />
+                  <column datatype='integer' name='2019 7-day moving average' ordinal='7' />
+                  <column datatype='integer' name='2019 Number of flights' ordinal='8' />
+                  <column datatype='integer' name='2018 7-day moving average' ordinal='9' />
+                  <column datatype='integer' name='2018 Number of flights' ordinal='10' />
+                </columns>
+              </relation>
+            </properties>
+          </object>
+        </objects>
+      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+    </datasource>
+    <datasource caption='Des Moines Airline data following Thanksgiving 2021' inline='true' name='federated.1mfrrd20qipps114qafp11t5r8eb' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='Des Moines Airline data following Thanksgiving 2021' name='excel-direct.0ptk0sa1sjsjge15k1gf61cxdtj5'>
+            <connection class='excel-direct' cleaning='yes' compat='no' dataRefreshTime='' filename='/Users/emilyhuston/Documents/GitHub/LA558_2022/airlineData/Des Moines Airline data following Thanksgiving 2021.xlsx' interpretationMode='1' password='' server='' validate='no' />
+          </named-connection>
+        </named-connections>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='excel-direct.0ptk0sa1sjsjge15k1gf61cxdtj5' name='Arrivals' table='[Arrivals$]' type='table'>
+          <columns gridOrigin='A1:J3480:no:A1:J3480:1' lost='0' outcome='1' processed='6968'>
+            <column datatype='date' name='Date' ordinal='0' />
+            <column datatype='datetime' name='TIME' ordinal='1' />
+            <column datatype='string' name='FLIGHT' ordinal='2' />
+            <column datatype='string' name='FROM' ordinal='3' />
+            <column datatype='string' name='AIRLINE' ordinal='4' />
+            <column datatype='string' name='AIRCRAFT' ordinal='5' />
+            <column datatype='real' name='F7' ordinal='6' />
+            <column datatype='string' name='STATUS' ordinal='7' />
+            <column datatype='real' name='F9' ordinal='8' />
+            <column datatype='string' name='F10' ordinal='9' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation connection='excel-direct.0ptk0sa1sjsjge15k1gf61cxdtj5' name='Arrivals' table='[Arrivals$]' type='table'>
+          <columns gridOrigin='A1:J3480:no:A1:J3480:1' lost='0' outcome='1' processed='6968'>
+            <column datatype='date' name='Date' ordinal='0' />
+            <column datatype='datetime' name='TIME' ordinal='1' />
+            <column datatype='string' name='FLIGHT' ordinal='2' />
+            <column datatype='string' name='FROM' ordinal='3' />
+            <column datatype='string' name='AIRLINE' ordinal='4' />
+            <column datatype='string' name='AIRCRAFT' ordinal='5' />
+            <column datatype='real' name='F7' ordinal='6' />
+            <column datatype='string' name='STATUS' ordinal='7' />
+            <column datatype='real' name='F9' ordinal='8' />
+            <column datatype='string' name='F10' ordinal='9' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[Arrivals]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='context'>0</attribute>
+              <attribute datatype='string' name='gridOrigin'>&quot;A1:J3480:no:A1:J3480:1&quot;</attribute>
+              <attribute datatype='integer' name='lost'>0</attribute>
+              <attribute datatype='integer' name='outcome'>1</attribute>
+              <attribute datatype='integer' name='processed'>6968</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Date</remote-name>
+            <remote-type>7</remote-type>
+            <local-name>[Date]</local-name>
+            <parent-name>[Arrivals]</parent-name>
+            <remote-alias>Date</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>date</local-type>
+            <aggregation>Year</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;DATE&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Arrivals_76FCADB640954733A7C879B36353523D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>TIME</remote-name>
+            <remote-type>7</remote-type>
+            <local-name>[TIME]</local-name>
+            <parent-name>[Arrivals]</parent-name>
+            <remote-alias>TIME</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>datetime</local-type>
+            <aggregation>Year</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;DATE&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Arrivals_76FCADB640954733A7C879B36353523D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>FLIGHT</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[FLIGHT]</local-name>
+            <parent-name>[Arrivals]</parent-name>
+            <remote-alias>FLIGHT</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Arrivals_76FCADB640954733A7C879B36353523D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>FROM</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[FROM]</local-name>
+            <parent-name>[Arrivals]</parent-name>
+            <remote-alias>FROM</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Arrivals_76FCADB640954733A7C879B36353523D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>AIRLINE</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[AIRLINE]</local-name>
+            <parent-name>[Arrivals]</parent-name>
+            <remote-alias>AIRLINE</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Arrivals_76FCADB640954733A7C879B36353523D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>AIRCRAFT</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[AIRCRAFT]</local-name>
+            <parent-name>[Arrivals]</parent-name>
+            <remote-alias>AIRCRAFT</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Arrivals_76FCADB640954733A7C879B36353523D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F7</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[F7]</local-name>
+            <parent-name>[Arrivals]</parent-name>
+            <remote-alias>F7</remote-alias>
+            <ordinal>6</ordinal>
+            <hidden>true</hidden>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Arrivals_76FCADB640954733A7C879B36353523D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>STATUS</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[STATUS]</local-name>
+            <parent-name>[Arrivals]</parent-name>
+            <remote-alias>STATUS</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Arrivals_76FCADB640954733A7C879B36353523D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F9</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[F9]</local-name>
+            <parent-name>[Arrivals]</parent-name>
+            <remote-alias>F9</remote-alias>
+            <ordinal>8</ordinal>
+            <hidden>true</hidden>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Arrivals_76FCADB640954733A7C879B36353523D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F10</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[F10]</local-name>
+            <parent-name>[Arrivals]</parent-name>
+            <remote-alias>F10</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Arrivals_76FCADB640954733A7C879B36353523D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column caption='Aircraft' datatype='string' name='[AIRCRAFT]' role='dimension' type='nominal' />
+      <column caption='Airline' datatype='string' name='[AIRLINE]' role='dimension' type='nominal' />
+      <column datatype='real' hidden='true' name='[F7]' role='measure' type='quantitative' />
+      <column datatype='real' hidden='true' name='[F9]' role='measure' type='quantitative' />
+      <column caption='Flight' datatype='string' name='[FLIGHT]' role='dimension' type='nominal' />
+      <column caption='From' datatype='string' name='[FROM]' role='dimension' semantic-role='[Airport].[Name]' type='nominal' />
+      <column caption='Status' datatype='string' name='[STATUS]' role='dimension' type='nominal' />
+      <column caption='Time' datatype='datetime' name='[TIME]' role='dimension' type='ordinal' />
+      <_.fcp.ObjectModelTableType.true...column caption='Arrivals' datatype='table' name='[__tableau_internal_object_id__].[Arrivals_76FCADB640954733A7C879B36353523D]' role='measure' type='quantitative' />
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;United States&quot;' />
+      </semantic-values>
+      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+        <objects>
+          <object caption='Arrivals' id='Arrivals_76FCADB640954733A7C879B36353523D'>
+            <properties context=''>
+              <relation connection='excel-direct.0ptk0sa1sjsjge15k1gf61cxdtj5' name='Arrivals' table='[Arrivals$]' type='table'>
+                <columns gridOrigin='A1:J3480:no:A1:J3480:1' lost='0' outcome='1' processed='6968'>
+                  <column datatype='date' name='Date' ordinal='0' />
+                  <column datatype='datetime' name='TIME' ordinal='1' />
+                  <column datatype='string' name='FLIGHT' ordinal='2' />
+                  <column datatype='string' name='FROM' ordinal='3' />
+                  <column datatype='string' name='AIRLINE' ordinal='4' />
+                  <column datatype='string' name='AIRCRAFT' ordinal='5' />
+                  <column datatype='real' name='F7' ordinal='6' />
+                  <column datatype='string' name='STATUS' ordinal='7' />
+                  <column datatype='real' name='F9' ordinal='8' />
+                  <column datatype='string' name='F10' ordinal='9' />
+                </columns>
+              </relation>
+            </properties>
+          </object>
+        </objects>
+      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+    </datasource>
+    <datasource caption='Arrivals (Des Moines Airline data following Thanksgiving 2021)' inline='true' name='federated.19ml0qi0rxime311xogpl1v7b28u' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='Des Moines Airline data following Thanksgiving 2021' name='excel-direct.1awjk8a0lbkyol15sn2ol1mcvbjp'>
+            <connection class='excel-direct' cleaning='yes' compat='no' dataRefreshTime='' filename='/Users/emilyhuston/Documents/GitHub/LA558_2022/airlineData/Des Moines Airline data following Thanksgiving 2021.xlsx' interpretationMode='1' password='' server='' validate='no' />
+          </named-connection>
+        </named-connections>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='excel-direct.1awjk8a0lbkyol15sn2ol1mcvbjp' name='Arrivals' table='[Arrivals$]' type='table'>
+          <columns gridOrigin='A1:J3480:no:A1:J3480:1' header='yes' lost='0' outcome='1' processed='6968'>
+            <column datatype='date' name='Date' ordinal='0' />
+            <column datatype='datetime' name='TIME' ordinal='1' />
+            <column datatype='string' name='FLIGHT' ordinal='2' />
+            <column datatype='string' name='FROM' ordinal='3' />
+            <column datatype='string' name='AIRLINE' ordinal='4' />
+            <column datatype='string' name='AIRCRAFT' ordinal='5' />
+            <column datatype='real' name='F7' ordinal='6' />
+            <column datatype='string' name='STATUS' ordinal='7' />
+            <column datatype='real' name='F9' ordinal='8' />
+            <column datatype='string' name='F10' ordinal='9' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation connection='excel-direct.1awjk8a0lbkyol15sn2ol1mcvbjp' name='Arrivals' table='[Arrivals$]' type='table'>
+          <columns gridOrigin='A1:J3480:no:A1:J3480:1' header='yes' lost='0' outcome='1' processed='6968'>
+            <column datatype='date' name='Date' ordinal='0' />
+            <column datatype='datetime' name='TIME' ordinal='1' />
+            <column datatype='string' name='FLIGHT' ordinal='2' />
+            <column datatype='string' name='FROM' ordinal='3' />
+            <column datatype='string' name='AIRLINE' ordinal='4' />
+            <column datatype='string' name='AIRCRAFT' ordinal='5' />
+            <column datatype='real' name='F7' ordinal='6' />
+            <column datatype='string' name='STATUS' ordinal='7' />
+            <column datatype='real' name='F9' ordinal='8' />
+            <column datatype='string' name='F10' ordinal='9' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[Arrivals]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='context'>0</attribute>
+              <attribute datatype='string' name='gridOrigin'>&quot;A1:J3480:no:A1:J3480:1&quot;</attribute>
+              <attribute datatype='integer' name='lost'>0</attribute>
+              <attribute datatype='integer' name='outcome'>1</attribute>
+              <attribute datatype='integer' name='processed'>6968</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Date</remote-name>
+            <remote-type>7</remote-type>
+            <local-name>[Date]</local-name>
+            <parent-name>[Arrivals]</parent-name>
+            <remote-alias>Date</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>date</local-type>
+            <aggregation>Year</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;DATE&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Arrivals_40E37514114C4AE890CE1E214C7B31F4]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>TIME</remote-name>
+            <remote-type>7</remote-type>
+            <local-name>[TIME]</local-name>
+            <parent-name>[Arrivals]</parent-name>
+            <remote-alias>TIME</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>datetime</local-type>
+            <aggregation>Year</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;DATE&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Arrivals_40E37514114C4AE890CE1E214C7B31F4]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>FLIGHT</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[FLIGHT]</local-name>
+            <parent-name>[Arrivals]</parent-name>
+            <remote-alias>FLIGHT</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Arrivals_40E37514114C4AE890CE1E214C7B31F4]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>FROM</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[FROM]</local-name>
+            <parent-name>[Arrivals]</parent-name>
+            <remote-alias>FROM</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Arrivals_40E37514114C4AE890CE1E214C7B31F4]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>AIRLINE</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[AIRLINE]</local-name>
+            <parent-name>[Arrivals]</parent-name>
+            <remote-alias>AIRLINE</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Arrivals_40E37514114C4AE890CE1E214C7B31F4]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>AIRCRAFT</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[AIRCRAFT]</local-name>
+            <parent-name>[Arrivals]</parent-name>
+            <remote-alias>AIRCRAFT</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Arrivals_40E37514114C4AE890CE1E214C7B31F4]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F7</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[F7]</local-name>
+            <parent-name>[Arrivals]</parent-name>
+            <remote-alias>F7</remote-alias>
+            <ordinal>6</ordinal>
+            <hidden>true</hidden>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Arrivals_40E37514114C4AE890CE1E214C7B31F4]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>STATUS</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[STATUS]</local-name>
+            <parent-name>[Arrivals]</parent-name>
+            <remote-alias>STATUS</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Arrivals_40E37514114C4AE890CE1E214C7B31F4]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F9</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[F9]</local-name>
+            <parent-name>[Arrivals]</parent-name>
+            <remote-alias>F9</remote-alias>
+            <ordinal>8</ordinal>
+            <hidden>true</hidden>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Arrivals_40E37514114C4AE890CE1E214C7B31F4]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F10</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[F10]</local-name>
+            <parent-name>[Arrivals]</parent-name>
+            <remote-alias>F10</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Arrivals_40E37514114C4AE890CE1E214C7B31F4]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column caption='Aircraft' datatype='string' name='[AIRCRAFT]' role='dimension' type='nominal' />
+      <column caption='Airline' datatype='string' name='[AIRLINE]' role='dimension' type='nominal' />
+      <column datatype='string' name='[Airline (group)]' role='dimension' type='nominal'>
+        <calculation class='categorical-bin' column='[AIRLINE]' new-bin='true'>
+          <bin default-name='false' value='&quot;Delta&quot;'>
+            <value>&quot;Delta Air Lines&quot;</value>
+            <value>&quot;Delta Connection&quot;</value>
+            <value>&quot;Delta Private Jets&quot;</value>
+          </bin>
+          <bin default-name='false' value='&quot;Frontier&quot;'>
+            <value>&quot;Frontier (Austin the Northern Mockingbird Livery)&quot;</value>
+            <value>&quot;Frontier (Cruz the Island Fox Livery)&quot;</value>
+            <value>&quot;Frontier (Mia the Dolphin Livery)&quot;</value>
+            <value>&quot;Frontier (Scarlet the Tanager Livery)&quot;</value>
+            <value>&quot;Frontier (Scout the Pine Marten Livery)&quot;</value>
+            <value>&quot;Frontier (Thunder the American Bison Livery)&quot;</value>
+          </bin>
+        </calculation>
+      </column>
+      <column caption='From Calc' datatype='string' name='[Calculation_2099170029987930112]' role='dimension' semantic-role='[Airport].[Name]' type='nominal'>
+        <calculation class='tableau' formula='LEFT(RIGHT([FROM],4),3)' />
+      </column>
+      <column datatype='date' name='[Date]' role='dimension' type='ordinal' />
+      <column datatype='real' hidden='true' name='[F7]' role='measure' type='quantitative' />
+      <column datatype='real' hidden='true' name='[F9]' role='measure' type='quantitative' />
+      <column caption='Flight' datatype='string' name='[FLIGHT]' role='dimension' type='nominal' />
+      <column caption='From' datatype='string' name='[FROM]' role='dimension' semantic-role='[Airport].[Name]' type='nominal' />
+      <column caption='Status' datatype='string' name='[STATUS]' role='dimension' type='nominal' />
+      <column caption='Time' datatype='datetime' name='[TIME]' role='dimension' type='ordinal' />
+      <_.fcp.ObjectModelTableType.true...column caption='Arrivals' datatype='table' name='[__tableau_internal_object_id__].[Arrivals_40E37514114C4AE890CE1E214C7B31F4]' role='measure' type='quantitative' />
+      <column-instance column='[Date]' derivation='MDY' name='[md:Date:ok]' pivot='key' type='ordinal' />
+      <column-instance column='[AIRLINE]' derivation='None' name='[none:AIRLINE:nk]' pivot='key' type='nominal' />
+      <extract _.fcp.ObjectModelExtractV2.true...object-id='' count='-1' enabled='true' units='records'>
+        <connection access_mode='readonly' authentication='auth-none' author-locale='en_US' class='hyper' dbname='/Users/emilyhuston/Documents/GitHub/LA558_2022emilyhuston/web/DSMFlightData.hyper' default-settings='yes' schema='Extract' sslmode='' tablename='Extract' update-time='' username='tableau_internal_user'>
+          <_.fcp.ObjectModelEncapsulateLegacy.false...relation name='Extract' table='[Extract].[Extract]' type='table' />
+          <_.fcp.ObjectModelEncapsulateLegacy.true...relation name='Extract' table='[Extract].[Extract]' type='table' />
+          <metadata-records>
+            <metadata-record class='column'>
+              <remote-name>Date</remote-name>
+              <remote-type>133</remote-type>
+              <local-name>[Date]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Date</remote-alias>
+              <ordinal>0</ordinal>
+              <family>Arrivals</family>
+              <local-type>date</local-type>
+              <aggregation>Year</aggregation>
+              <approx-count>66</approx-count>
+              <contains-null>true</contains-null>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>TIME</remote-name>
+              <remote-type>135</remote-type>
+              <local-name>[TIME]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>TIME</remote-alias>
+              <ordinal>1</ordinal>
+              <family>Arrivals</family>
+              <local-type>datetime</local-type>
+              <aggregation>Year</aggregation>
+              <approx-count>581</approx-count>
+              <contains-null>true</contains-null>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>FLIGHT</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[FLIGHT]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>FLIGHT</remote-alias>
+              <ordinal>2</ordinal>
+              <family>Arrivals</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>345</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RUS_S2' />
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>FROM</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[FROM]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>FROM</remote-alias>
+              <ordinal>3</ordinal>
+              <family>Arrivals</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>295</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RUS_S2' />
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>AIRLINE</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[AIRLINE]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>AIRLINE</remote-alias>
+              <ordinal>4</ordinal>
+              <family>Arrivals</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>83</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RUS_S2' />
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>AIRCRAFT</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[AIRCRAFT]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>AIRCRAFT</remote-alias>
+              <ordinal>5</ordinal>
+              <family>Arrivals</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>1477</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RUS_S2' />
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>STATUS</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[STATUS]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>STATUS</remote-alias>
+              <ordinal>6</ordinal>
+              <family>Arrivals</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>1319</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RUS_S2' />
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>F10</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[F10]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>F10</remote-alias>
+              <ordinal>7</ordinal>
+              <family>Arrivals</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>1</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RUS_S2' />
+            </metadata-record>
+          </metadata-records>
+        </connection>
+      </extract>
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <style>
+        <style-rule element='mark'>
+          <encoding attr='color' field='[md:Date:ok]' palette='red_10_0' type='palette'>
+            <map to='#499894'>
+              <bucket>20211206</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>20211226</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>20220115</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>20211128</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>20211218</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>20220107</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>20220127</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>20211202</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>20220111</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>20220131</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>20211210</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>20211230</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>20220119</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>20211207</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>20211227</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>20220116</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>20211203</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>20220112</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>20220201</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>20211216</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>20220105</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>20220125</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>20211129</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>20211219</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>20220108</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>20220128</bucket>
+            </map>
+            <map to='#ae123a'>
+              <bucket>20211225</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>20211214</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>20220103</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>20220123</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>20211204</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>20220113</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>20211211</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>20211231</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>20220120</bucket>
+            </map>
+            <map to='#d2283d'>
+              <bucket>20211224</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>20211212</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>20220101</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>20220121</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>20211215</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>20220104</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>20220124</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>20211217</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>20220106</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>20220126</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>20211208</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>20211228</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>20220117</bucket>
+            </map>
+            <map to='#eb4c48'>
+              <bucket>20211223</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>20211205</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>20220114</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>20211130</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>20220109</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>20220129</bucket>
+            </map>
+            <map to='#f67561'>
+              <bucket>20211222</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>20211213</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>20220102</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>20220122</bucket>
+            </map>
+            <map to='#fc9b87'>
+              <bucket>20211221</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>20211209</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>20211229</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>20220118</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>20211201</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>20220110</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>20220130</bucket>
+            </map>
+            <map to='#ffbeb2'>
+              <bucket>20211220</bucket>
+            </map>
+          </encoding>
+          <encoding attr='color' field='[none:AIRLINE:nk]' type='palette'>
+            <map to='#499894'>
+              <bucket>&quot;American Airlines (Allegehny Heritage Livery)&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;Frontier (Baja the Whale Shark Livery)&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;Frontier (Junior the Lynx Livery)&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;Frontier (Thunder the American Bison Livery)&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;Private owner&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;Wheels Up&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;-&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;Eagle Creek Aviation&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;Frontier (Georgia the Painted Bunting Livery)&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;Frontier (Scarlet the Tanager Livery)&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;Maxair&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;Tradewind Aviation&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Allegiant Air (Las Vegas Raiders Livery)&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Flexjet&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Frontier (Hugh the Manatee Livery)&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Frontier (Spot the Jaguar Livery)&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Omni Air International&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;United Airlines(Continental Airlines Retro Livery)&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;American Eagle&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;Frontier (Choo the Pika Livery)&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;Frontier (Montana the Elk Livery)&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;Frontier (Wellington the Black-footed Ferret)&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;Silver Airways&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;American Airlines (America West Heritage Livery)&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;Frontier (Blanco the Polar Bear Livery)&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;Frontier (Marshall the Ring-tailed Cat Livery)&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;Frontier (Trixie the Fox Livery)&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;Republic Airways&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;Xojet&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;Amazon Air&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;Freight Runners Express&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;Frontier (Hunter the Bobcat Livery)&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;Frontier (Summer the Swan Livery)&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;Pacific Coast Jet&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;United Express&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;Delta Connection&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;Frontier (Forest the Northern Spotted Owl Livery)&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;Frontier (Ruby the Reindeer Livery)&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;Jet Linx Aviation&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;SpiritJets&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;Air Charter Express&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;Elite Airways&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;Frontier (Grizwald the Bear Livery)&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;Frontier (Scout the Pine Marten Livery)&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;Mountain Aviation&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;United (Star Wars-The Rise of Skywalker Livery)&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;Contour Aviation&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;Frontier (Crystal the Florida Manatee Livery)&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;Frontier (Rio the Jaguarundi Livery)&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;IBC Airways&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;Southwest Airlines (Classic Retro Livery)&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;American Air Charter&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;Frontier (Al the Roadrunner Livery)&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;Frontier (Jo Jo the Grizzly Bear Livery)&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;Frontier (Sunny the Collared Lizard Livery)&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;PlaneSense&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;UPS&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;American Eagle (Retro Livery)&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;Frontier (Clover the Deer Fawn Livery)&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;Frontier (North the Harp Seal Livery)&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;Frontier (Wylie the Coati Livery)&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;Silverhawk Aviation&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;ATI Jet&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;Frontier (Colorado the Bighorn Sheep Livery)&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;Frontier (Peachy the Fox Livery)&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;Frontier Airlines&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;SkyWest Airlines&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;Delta Air Lines&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;Frontier (Eccles the Ermine Livery)&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;Frontier (Rosie the River Otter Livery)&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;Jet It&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;Southwest Airlines (Maryland One Livery)&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;Delta Private Jets&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;Frontier (Fran the Sea Lion Livery)&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;Frontier (Sammy the Squirrel Livery)&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;Kalitta Charters&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;Sun Country Airlines&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;American Airlines (Piedmont Heritage Livery)&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Frontier (Buck the Pronghorn Livery)&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Frontier (Meadow &amp; West The Horses Livery)&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Frontier (Verde the Resplendent Quetzal Livery)&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Royal Air Freight&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;American Airlines&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;Frontier (Austin the Northern Mockingbird Livery)&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;Frontier (Joaquin the Kit Fox Livery)&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;Frontier (Tex the Armadillo Livery)&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;Private Jets&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;USA Jet Airlines&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;AirShare&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Executive Jet Management&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Frontier (Grizwald the Grizzly Bear Livery)&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Frontier (Skye the Blue Jay Livery)&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;NetJets&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;United Airlines&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;Berry Aviation&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;Frontier (Cruz the Island Fox Livery)&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;Frontier (Percy the Florida Panther Livery)&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;iAero Airways&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;Southwest Airlines&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;American Airlines (Retro PSA livery)&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;Frontier (Captain the Puffin Livery)&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;Frontier (Mia the Dolphin Livery)&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;Frontier (Ward the Beaver Livery)&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;Sierra West Airlines&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;Allegiant Air&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;FedEx&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;Frontier (Hazel the Chipmunk Livery)&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;Frontier (Sonny the Lemon Shark Livery)&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;North Star Aviation&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;United Airlines (Star Alliance Livery)&quot;</bucket>
+            </map>
+          </encoding>
+        </style-rule>
+      </style>
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;United States&quot;' />
+      </semantic-values>
+      <field-sort-info field-sort-order-type='custom-order'>
+        <field-sort-custom-order field='Date' />
+        <field-sort-custom-order field='TIME' />
+        <field-sort-custom-order field='FLIGHT' />
+        <field-sort-custom-order field='FROM' />
+        <field-sort-custom-order field='Calculation_2099170029987930112' />
+        <field-sort-custom-order field='AIRLINE' />
+        <field-sort-custom-order field='AIRCRAFT' />
+        <field-sort-custom-order field='STATUS' />
+        <field-sort-custom-order field='F9' />
+        <field-sort-custom-order field='F10' />
+      </field-sort-info>
+      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+        <objects>
+          <object caption='Arrivals' id='Arrivals_40E37514114C4AE890CE1E214C7B31F4'>
+            <properties context=''>
+              <relation connection='excel-direct.1awjk8a0lbkyol15sn2ol1mcvbjp' name='Arrivals' table='[Arrivals$]' type='table'>
+                <columns gridOrigin='A1:J3480:no:A1:J3480:1' header='yes' lost='0' outcome='1' processed='6968'>
+                  <column datatype='date' name='Date' ordinal='0' />
+                  <column datatype='datetime' name='TIME' ordinal='1' />
+                  <column datatype='string' name='FLIGHT' ordinal='2' />
+                  <column datatype='string' name='FROM' ordinal='3' />
+                  <column datatype='string' name='AIRLINE' ordinal='4' />
+                  <column datatype='string' name='AIRCRAFT' ordinal='5' />
+                  <column datatype='real' name='F7' ordinal='6' />
+                  <column datatype='string' name='STATUS' ordinal='7' />
+                  <column datatype='real' name='F9' ordinal='8' />
+                  <column datatype='string' name='F10' ordinal='9' />
+                </columns>
+              </relation>
+            </properties>
+            <properties context='extract'>
+              <relation name='Extract' table='[Extract].[Extract]' type='table' />
+            </properties>
+          </object>
+        </objects>
+      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+    </datasource>
+    <datasource caption='Departures (Des Moines Airline data following Thanksgiving 2021)' inline='true' name='federated.08s6hox1krvjca1f1jj8t1pppcx5' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='Des Moines Airline data following Thanksgiving 2021' name='excel-direct.1icx9180srack01bztc2n0frw33m'>
+            <connection class='excel-direct' cleaning='no' compat='no' dataRefreshTime='' filename='/Users/emilyhuston/Documents/GitHub/LA558_2022/airlineData/Des Moines Airline data following Thanksgiving 2021.xlsx' interpretationMode='0' password='' server='' validate='no' />
+          </named-connection>
+        </named-connections>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='excel-direct.1icx9180srack01bztc2n0frw33m' name='Departures' table='[Departures$]' type='table'>
+          <columns gridOrigin='A1:H3483:no:A1:H3483:0' header='yes' outcome='2'>
+            <column datatype='date' name='Date' ordinal='0' />
+            <column datatype='datetime' name='TIME' ordinal='1' />
+            <column datatype='string' name='FLIGHT' ordinal='2' />
+            <column datatype='string' name='TO' ordinal='3' />
+            <column datatype='string' name='AIRLINE' ordinal='4' />
+            <column datatype='string' name='AIRCRAFT' ordinal='5' />
+            <column datatype='real' name='F7' ordinal='6' />
+            <column datatype='string' name='STATUS' ordinal='7' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation connection='excel-direct.1icx9180srack01bztc2n0frw33m' name='Departures' table='[Departures$]' type='table'>
+          <columns gridOrigin='A1:H3483:no:A1:H3483:0' header='yes' outcome='2'>
+            <column datatype='date' name='Date' ordinal='0' />
+            <column datatype='datetime' name='TIME' ordinal='1' />
+            <column datatype='string' name='FLIGHT' ordinal='2' />
+            <column datatype='string' name='TO' ordinal='3' />
+            <column datatype='string' name='AIRLINE' ordinal='4' />
+            <column datatype='string' name='AIRCRAFT' ordinal='5' />
+            <column datatype='real' name='F7' ordinal='6' />
+            <column datatype='string' name='STATUS' ordinal='7' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[Departures]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='context'>0</attribute>
+              <attribute datatype='string' name='gridOrigin'>&quot;A1:H3483:no:A1:H3483:0&quot;</attribute>
+              <attribute datatype='boolean' name='header'>true</attribute>
+              <attribute datatype='integer' name='outcome'>2</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Date</remote-name>
+            <remote-type>7</remote-type>
+            <local-name>[Date]</local-name>
+            <parent-name>[Departures]</parent-name>
+            <remote-alias>Date</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>date</local-type>
+            <aggregation>Year</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;DATE&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Departures_FA82F3B276AD4B37A9BA850B457EE96A]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>TIME</remote-name>
+            <remote-type>7</remote-type>
+            <local-name>[TIME]</local-name>
+            <parent-name>[Departures]</parent-name>
+            <remote-alias>TIME</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>datetime</local-type>
+            <aggregation>Year</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;DATE&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Departures_FA82F3B276AD4B37A9BA850B457EE96A]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>FLIGHT</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[FLIGHT]</local-name>
+            <parent-name>[Departures]</parent-name>
+            <remote-alias>FLIGHT</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Departures_FA82F3B276AD4B37A9BA850B457EE96A]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>TO</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[TO]</local-name>
+            <parent-name>[Departures]</parent-name>
+            <remote-alias>TO</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Departures_FA82F3B276AD4B37A9BA850B457EE96A]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>AIRLINE</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[AIRLINE]</local-name>
+            <parent-name>[Departures]</parent-name>
+            <remote-alias>AIRLINE</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Departures_FA82F3B276AD4B37A9BA850B457EE96A]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>AIRCRAFT</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[AIRCRAFT]</local-name>
+            <parent-name>[Departures]</parent-name>
+            <remote-alias>AIRCRAFT</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Departures_FA82F3B276AD4B37A9BA850B457EE96A]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F7</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[F7]</local-name>
+            <parent-name>[Departures]</parent-name>
+            <remote-alias>F7</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Departures_FA82F3B276AD4B37A9BA850B457EE96A]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>STATUS</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[STATUS]</local-name>
+            <parent-name>[Departures]</parent-name>
+            <remote-alias>STATUS</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Departures_FA82F3B276AD4B37A9BA850B457EE96A]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column caption='Aircraft' datatype='string' name='[AIRCRAFT]' role='dimension' type='nominal' />
+      <column caption='Airline' datatype='string' name='[AIRLINE]' role='dimension' type='nominal' />
+      <column caption='Airline Name' datatype='string' name='[Airline (group)]' role='dimension' type='nominal'>
+        <calculation class='categorical-bin' column='[AIRLINE]' new-bin='true'>
+          <bin default-name='false' value='&quot;Delta&quot;'>
+            <value>&quot;Delta Air Lines&quot;</value>
+            <value>&quot;Delta Connection&quot;</value>
+            <value>&quot;Delta Private Jets&quot;</value>
+          </bin>
+          <bin default-name='false' value='&quot;Frontier&quot;'>
+            <value>&quot;Frontier (Austin the Northern Mockingbird Livery)&quot;</value>
+            <value>&quot;Frontier (Cruz the Island Fox Livery)&quot;</value>
+            <value>&quot;Frontier (Mia the Dolphin Livery)&quot;</value>
+            <value>&quot;Frontier (Scarlet the Tanager Livery)&quot;</value>
+            <value>&quot;Frontier (Scout the Pine Marten Livery)&quot;</value>
+            <value>&quot;Frontier (Thunder the American Bison Livery)&quot;</value>
+          </bin>
+          <bin default-name='false' value='&quot;Kalitta Charters&quot;'>
+            <value>&quot;Kalitta Charters&quot;</value>
+          </bin>
+        </calculation>
+      </column>
+      <column caption='TO Calc' datatype='string' name='[Calculation_2099170030002987009]' role='dimension' semantic-role='[Airport].[Name]' type='nominal'>
+        <calculation class='tableau' formula='LEFT(RIGHT([TO],4),3)' />
+      </column>
+      <column datatype='date' name='[Date]' role='dimension' type='ordinal' />
+      <column caption='Flight' datatype='string' name='[FLIGHT]' role='dimension' type='nominal' />
+      <column caption='Status' datatype='string' name='[STATUS]' role='dimension' type='nominal' />
+      <column caption='Time' datatype='datetime' name='[TIME]' role='dimension' type='ordinal' />
+      <_.fcp.ObjectModelTableType.true...column caption='Departures' datatype='table' name='[__tableau_internal_object_id__].[Departures_FA82F3B276AD4B37A9BA850B457EE96A]' role='measure' type='quantitative' />
+      <column-instance column='[Date]' derivation='MDY' name='[md:Date:ok]' pivot='key' type='ordinal' />
+      <extract _.fcp.ObjectModelExtractV2.true...object-id='' count='-1' enabled='true' units='records'>
+        <connection access_mode='readonly' authentication='auth-none' author-locale='en_US' class='hyper' dbname='/Users/emilyhuston/Documents/GitHub/LA558_2022emilyhuston/web/DSMFlightData.hyper' default-settings='yes' schema='Extract' sslmode='' tablename='Extract' update-time='' username='tableau_internal_user'>
+          <_.fcp.ObjectModelEncapsulateLegacy.false...relation name='Extract' table='[Extract].[Extract]' type='table' />
+          <_.fcp.ObjectModelEncapsulateLegacy.true...relation name='Extract' table='[Extract].[Extract]' type='table' />
+          <metadata-records>
+            <metadata-record class='column'>
+              <remote-name>Date</remote-name>
+              <remote-type>133</remote-type>
+              <local-name>[Date]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Date</remote-alias>
+              <ordinal>0</ordinal>
+              <family>Departures</family>
+              <local-type>date</local-type>
+              <aggregation>Year</aggregation>
+              <approx-count>65</approx-count>
+              <contains-null>true</contains-null>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>TIME</remote-name>
+              <remote-type>135</remote-type>
+              <local-name>[TIME]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>TIME</remote-alias>
+              <ordinal>1</ordinal>
+              <family>Departures</family>
+              <local-type>datetime</local-type>
+              <aggregation>Year</aggregation>
+              <approx-count>306</approx-count>
+              <contains-null>true</contains-null>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>FLIGHT</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[FLIGHT]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>FLIGHT</remote-alias>
+              <ordinal>2</ordinal>
+              <family>Departures</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>300</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RUS_S2' />
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>TO</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[TO]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>TO</remote-alias>
+              <ordinal>3</ordinal>
+              <family>Departures</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>249</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RUS_S2' />
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>AIRLINE</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[AIRLINE]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>AIRLINE</remote-alias>
+              <ordinal>4</ordinal>
+              <family>Departures</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>91</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RUS_S2' />
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>AIRCRAFT</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[AIRCRAFT]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>AIRCRAFT</remote-alias>
+              <ordinal>5</ordinal>
+              <family>Departures</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>1427</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RUS_S2' />
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>F7</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[F7]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>F7</remote-alias>
+              <ordinal>6</ordinal>
+              <family>Departures</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>1</approx-count>
+              <contains-null>true</contains-null>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>STATUS</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[STATUS]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>STATUS</remote-alias>
+              <ordinal>7</ordinal>
+              <family>Departures</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>1158</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RUS_S2' />
+            </metadata-record>
+          </metadata-records>
+        </connection>
+      </extract>
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <style>
+        <style-rule element='mark'>
+          <encoding attr='color' field='[md:Date:ok]' type='palette'>
+            <map to='#499894'>
+              <bucket>20211206</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>20211226</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>20220115</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>20211128</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>20211218</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>20220107</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>20220127</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>20211202</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>20211222</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>20220111</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>20220131</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>20211210</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>20211230</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>20220119</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>20211207</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>20211227</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>20220116</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>20211203</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>20211223</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>20220112</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>20211216</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>20220105</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>20220125</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>20211129</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>20211219</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>20220108</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>20220128</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>20211214</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>20220103</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>20220123</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>20211204</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>20211224</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>20220113</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>20211211</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>20211231</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>20220120</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>20211212</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>20220101</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>20220121</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>20211215</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>20220104</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>20220124</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>20211217</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>20220106</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>20220126</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>20211208</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>20211228</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>20220117</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>20211205</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>20211225</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>20220114</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>20211130</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>20211220</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>20220109</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>20220129</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>20211213</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>20220102</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>20220122</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>20211209</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>20211229</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>20220118</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>20211201</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>20211221</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>20220110</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>20220130</bucket>
+            </map>
+          </encoding>
+        </style-rule>
+      </style>
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;United States&quot;' />
+      </semantic-values>
+      <field-sort-info field-sort-order-type='custom-order'>
+        <field-sort-custom-order field='Date' />
+        <field-sort-custom-order field='TIME' />
+        <field-sort-custom-order field='FLIGHT' />
+        <field-sort-custom-order field='TO' />
+        <field-sort-custom-order field='Calculation_2099170030002987009' />
+        <field-sort-custom-order field='AIRLINE' />
+        <field-sort-custom-order field='AIRCRAFT' />
+        <field-sort-custom-order field='F7' />
+        <field-sort-custom-order field='STATUS' />
+        <field-sort-custom-order field='Airline (group)' />
+      </field-sort-info>
+      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+        <objects>
+          <object caption='Departures' id='Departures_FA82F3B276AD4B37A9BA850B457EE96A'>
+            <properties context=''>
+              <relation connection='excel-direct.1icx9180srack01bztc2n0frw33m' name='Departures' table='[Departures$]' type='table'>
+                <columns gridOrigin='A1:H3483:no:A1:H3483:0' header='yes' outcome='2'>
+                  <column datatype='date' name='Date' ordinal='0' />
+                  <column datatype='datetime' name='TIME' ordinal='1' />
+                  <column datatype='string' name='FLIGHT' ordinal='2' />
+                  <column datatype='string' name='TO' ordinal='3' />
+                  <column datatype='string' name='AIRLINE' ordinal='4' />
+                  <column datatype='string' name='AIRCRAFT' ordinal='5' />
+                  <column datatype='real' name='F7' ordinal='6' />
+                  <column datatype='string' name='STATUS' ordinal='7' />
+                </columns>
+              </relation>
+            </properties>
+            <properties context='extract'>
+              <relation name='Extract' table='[Extract].[Extract]' type='table' />
+            </properties>
+          </object>
+        </objects>
+      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+    </datasource>
+  </datasources>
+  <mapsources>
+    <mapsource name='Tableau' />
+  </mapsources>
+  <worksheets>
+    <worksheet name='Sheet 1'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Ark1 (number-of-commercial-flights-all)' name='federated.0kms3y20tka1201dfawz80622qje' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0kms3y20tka1201dfawz80622qje'>
+            <column datatype='integer' name='[2021 Number of flights]' role='measure' type='quantitative' />
+            <column-instance column='[2021 Number of flights]' derivation='Sum' name='[sum:2021 Number of flights:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='refline'>
+            <format attr='stroke-color' id='refline0' value='#000000' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane id='2' selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.0kms3y20tka1201dfawz80622qje].[:Measure Names]' />
+              <lod column='[federated.0kms3y20tka1201dfawz80622qje].[sum:2021 Number of flights:qk]' />
+            </encodings>
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+      </table>
+      <simple-id uuid='{C7214BB1-7FAF-4021-9C31-ED7447AB2D37}' />
+    </worksheet>
+    <worksheet name='Sheet 2'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run>Week of Christmas Arrivals</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Arrivals (Des Moines Airline data following Thanksgiving 2021)' name='federated.19ml0qi0rxime311xogpl1v7b28u' />
+          </datasources>
+          <mapsources>
+            <mapsource name='Tableau' />
+          </mapsources>
+          <datasource-dependencies datasource='federated.19ml0qi0rxime311xogpl1v7b28u'>
+            <column caption='From Calc' datatype='string' name='[Calculation_2099170029987930112]' role='dimension' semantic-role='[Airport].[Name]' type='nominal'>
+              <calculation class='tableau' formula='LEFT(RIGHT([FROM],4),3)' />
+            </column>
+            <column datatype='date' name='[Date]' role='dimension' type='ordinal' />
+            <_.fcp.ObjectModelTableType.false...column caption='Arrivals' datatype='integer' name='[__tableau_internal_object_id__].[Arrivals_40E37514114C4AE890CE1E214C7B31F4]' role='measure' type='quantitative' />
+            <column caption='From' datatype='string' name='[FROM]' role='dimension' semantic-role='[Airport].[Name]' type='nominal' />
+            <_.fcp.ObjectModelTableType.true...column caption='Arrivals' datatype='table' name='[__tableau_internal_object_id__].[Arrivals_40E37514114C4AE890CE1E214C7B31F4]' role='measure' type='quantitative' />
+            <column-instance column='[__tableau_internal_object_id__].[Arrivals_40E37514114C4AE890CE1E214C7B31F4]' derivation='Count' name='[__tableau_internal_object_id__].[cnt:Arrivals_40E37514114C4AE890CE1E214C7B31F4:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Date]' derivation='MDY' name='[md:Date:ok]' pivot='key' type='ordinal' />
+            <column-instance column='[Calculation_2099170029987930112]' derivation='None' name='[none:Calculation_2099170029987930112:nk]' pivot='key' type='nominal' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.19ml0qi0rxime311xogpl1v7b28u].[md:Date:ok]'>
+            <groupfilter function='union' user:ui-domain='relevant' user:ui-enumeration='inclusive' user:ui-marker='enumerate'>
+              <groupfilter function='member' level='[md:Date:ok]' member='20211220' />
+              <groupfilter function='member' level='[md:Date:ok]' member='20211221' />
+              <groupfilter function='member' level='[md:Date:ok]' member='20211222' />
+              <groupfilter function='member' level='[md:Date:ok]' member='20211223' />
+              <groupfilter function='member' level='[md:Date:ok]' member='20211224' />
+              <groupfilter function='member' level='[md:Date:ok]' member='20211225' />
+            </groupfilter>
+          </filter>
+          <slices>
+            <column>[federated.19ml0qi0rxime311xogpl1v7b28u].[md:Date:ok]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <encoding attr='space' class='0' field='[federated.19ml0qi0rxime311xogpl1v7b28u].[Longitude (generated)]' field-type='quantitative' max='-7213079.624815763' min='-14177801.528433362' projection='EPSG:3857' range-type='fixed' scope='cols' type='space' />
+            <encoding attr='space' class='0' field='[federated.19ml0qi0rxime311xogpl1v7b28u].[Latitude (generated)]' field-type='quantitative' max='6722543.0009615831' min='2350027.9902930041' projection='EPSG:3857' range-type='fixed' scope='rows' type='space' />
+          </style-rule>
+          <style-rule element='mark'>
+            <encoding attr='size' field='[federated.19ml0qi0rxime311xogpl1v7b28u].[__tableau_internal_object_id__].[cnt:Arrivals_40E37514114C4AE890CE1E214C7B31F4:qk]' field-type='quantitative' max-size='1' min-size='0' type='quantsize' />
+          </style-rule>
+          <style-rule element='table'>
+            <format attr='show-null-value-warning' value='false' />
+          </style-rule>
+          <style-rule element='legend-title-text'>
+            <format attr='size' field='[federated.19ml0qi0rxime311xogpl1v7b28u].[__tableau_internal_object_id__].[cnt:Arrivals_40E37514114C4AE890CE1E214C7B31F4:qk]' value='# of Arrivals'>
+              <formatted-text>
+                <run># of Arrivals</run>
+              </formatted-text>
+            </format>
+          </style-rule>
+          <style-rule element='map'>
+            <format attr='washout' value='0' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <lod column='[federated.19ml0qi0rxime311xogpl1v7b28u].[none:Calculation_2099170029987930112:nk]' />
+              <size column='[federated.19ml0qi0rxime311xogpl1v7b28u].[__tableau_internal_object_id__].[cnt:Arrivals_40E37514114C4AE890CE1E214C7B31F4:qk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-color' value='#e15759' />
+                <format attr='size' value='0.71898651123046875' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.19ml0qi0rxime311xogpl1v7b28u].[Latitude (generated)]</rows>
+        <cols>[federated.19ml0qi0rxime311xogpl1v7b28u].[Longitude (generated)]</cols>
+      </table>
+      <simple-id uuid='{302DE24F-F8E1-41DC-BE53-1F0194C50F0F}' />
+    </worksheet>
+    <worksheet name='Sheet 3'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run>Week of Christmas Departures&#10;</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Departures (Des Moines Airline data following Thanksgiving 2021)' name='federated.08s6hox1krvjca1f1jj8t1pppcx5' />
+          </datasources>
+          <mapsources>
+            <mapsource name='Tableau' />
+          </mapsources>
+          <datasource-dependencies datasource='federated.08s6hox1krvjca1f1jj8t1pppcx5'>
+            <column caption='TO Calc' datatype='string' name='[Calculation_2099170030002987009]' role='dimension' semantic-role='[Airport].[Name]' type='nominal'>
+              <calculation class='tableau' formula='LEFT(RIGHT([TO],4),3)' />
+            </column>
+            <column datatype='date' name='[Date]' role='dimension' type='ordinal' />
+            <_.fcp.ObjectModelTableType.false...column caption='Departures' datatype='integer' name='[__tableau_internal_object_id__].[Departures_FA82F3B276AD4B37A9BA850B457EE96A]' role='measure' type='quantitative' />
+            <column datatype='string' name='[TO]' role='dimension' type='nominal' />
+            <_.fcp.ObjectModelTableType.true...column caption='Departures' datatype='table' name='[__tableau_internal_object_id__].[Departures_FA82F3B276AD4B37A9BA850B457EE96A]' role='measure' type='quantitative' />
+            <column-instance column='[__tableau_internal_object_id__].[Departures_FA82F3B276AD4B37A9BA850B457EE96A]' derivation='Count' name='[__tableau_internal_object_id__].[cnt:Departures_FA82F3B276AD4B37A9BA850B457EE96A:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Date]' derivation='MDY' name='[md:Date:ok]' pivot='key' type='ordinal' />
+            <column-instance column='[Calculation_2099170030002987009]' derivation='None' name='[none:Calculation_2099170030002987009:nk]' pivot='key' type='nominal' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.08s6hox1krvjca1f1jj8t1pppcx5].[:Measure Names]'>
+            <groupfilter function='level-members' level='[:Measure Names]' />
+          </filter>
+          <filter class='categorical' column='[federated.08s6hox1krvjca1f1jj8t1pppcx5].[md:Date:ok]'>
+            <groupfilter function='union' user:ui-domain='relevant' user:ui-enumeration='inclusive' user:ui-marker='enumerate'>
+              <groupfilter function='member' level='[md:Date:ok]' member='20211220' />
+              <groupfilter function='member' level='[md:Date:ok]' member='20211221' />
+              <groupfilter function='member' level='[md:Date:ok]' member='20211222' />
+              <groupfilter function='member' level='[md:Date:ok]' member='20211223' />
+              <groupfilter function='member' level='[md:Date:ok]' member='20211224' />
+              <groupfilter function='member' level='[md:Date:ok]' member='20211225' />
+            </groupfilter>
+          </filter>
+          <slices>
+            <column>[federated.08s6hox1krvjca1f1jj8t1pppcx5].[md:Date:ok]</column>
+            <column>[federated.08s6hox1krvjca1f1jj8t1pppcx5].[:Measure Names]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <encoding attr='space' class='0' field='[federated.08s6hox1krvjca1f1jj8t1pppcx5].[Longitude (generated)]' field-type='quantitative' max='-6785147.8076598924' min='-14639079.261149243' projection='EPSG:3857' range-type='fixed' scope='cols' type='space' />
+            <encoding attr='space' class='0' field='[federated.08s6hox1krvjca1f1jj8t1pppcx5].[Latitude (generated)]' field-type='quantitative' max='6757852.4824408907' min='2539796.9420532049' projection='EPSG:3857' range-type='fixed' scope='rows' type='space' />
+          </style-rule>
+          <style-rule element='mark'>
+            <encoding attr='size' field='[federated.08s6hox1krvjca1f1jj8t1pppcx5].[__tableau_internal_object_id__].[cnt:Departures_FA82F3B276AD4B37A9BA850B457EE96A:qk]' field-type='quantitative' max-size='1' min-size='0' type='quantsize' />
+          </style-rule>
+          <style-rule element='table'>
+            <format attr='show-null-value-warning' value='false' />
+          </style-rule>
+          <style-rule element='legend-title-text'>
+            <format attr='size' field='[federated.08s6hox1krvjca1f1jj8t1pppcx5].[__tableau_internal_object_id__].[cnt:Departures_FA82F3B276AD4B37A9BA850B457EE96A:qk]' value='# of Departures'>
+              <formatted-text>
+                <run># of Departures</run>
+              </formatted-text>
+            </format>
+          </style-rule>
+          <style-rule element='map'>
+            <format attr='washout' value='0' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <size column='[federated.08s6hox1krvjca1f1jj8t1pppcx5].[__tableau_internal_object_id__].[cnt:Departures_FA82F3B276AD4B37A9BA850B457EE96A:qk]' />
+              <lod column='[federated.08s6hox1krvjca1f1jj8t1pppcx5].[none:Calculation_2099170030002987009:nk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-color' value='#499894' />
+                <format attr='size' value='0.66834461688995361' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.08s6hox1krvjca1f1jj8t1pppcx5].[Latitude (generated)]</rows>
+        <cols>[federated.08s6hox1krvjca1f1jj8t1pppcx5].[Longitude (generated)]</cols>
+      </table>
+      <simple-id uuid='{BE04D1A1-28C7-4D2D-AEA4-95BE149AE859}' />
+    </worksheet>
+    <worksheet name='Sheet 4'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run>Departing Christmas Flights by Airline
+</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Departures (Des Moines Airline data following Thanksgiving 2021)' name='federated.08s6hox1krvjca1f1jj8t1pppcx5' />
+          </datasources>
+          <datasource-dependencies datasource='federated.08s6hox1krvjca1f1jj8t1pppcx5'>
+            <column caption='Airline' datatype='string' name='[AIRLINE]' role='dimension' type='nominal' />
+            <column caption='Airline Name' datatype='string' name='[Airline (group)]' role='dimension' type='nominal'>
+              <calculation class='categorical-bin' column='[AIRLINE]' new-bin='true'>
+                <bin default-name='false' value='&quot;Delta&quot;'>
+                  <value>&quot;Delta Air Lines&quot;</value>
+                  <value>&quot;Delta Connection&quot;</value>
+                  <value>&quot;Delta Private Jets&quot;</value>
+                </bin>
+                <bin default-name='false' value='&quot;Frontier&quot;'>
+                  <value>&quot;Frontier (Austin the Northern Mockingbird Livery)&quot;</value>
+                  <value>&quot;Frontier (Cruz the Island Fox Livery)&quot;</value>
+                  <value>&quot;Frontier (Mia the Dolphin Livery)&quot;</value>
+                  <value>&quot;Frontier (Scarlet the Tanager Livery)&quot;</value>
+                  <value>&quot;Frontier (Scout the Pine Marten Livery)&quot;</value>
+                  <value>&quot;Frontier (Thunder the American Bison Livery)&quot;</value>
+                </bin>
+                <bin default-name='false' value='&quot;Kalitta Charters&quot;'>
+                  <value>&quot;Kalitta Charters&quot;</value>
+                </bin>
+              </calculation>
+            </column>
+            <_.fcp.ObjectModelTableType.false...column caption='Departures' datatype='integer' name='[__tableau_internal_object_id__].[Departures_FA82F3B276AD4B37A9BA850B457EE96A]' role='measure' type='quantitative' />
+            <column datatype='date' name='[Date]' role='dimension' type='ordinal' />
+            <_.fcp.ObjectModelTableType.true...column caption='Departures' datatype='table' name='[__tableau_internal_object_id__].[Departures_FA82F3B276AD4B37A9BA850B457EE96A]' role='measure' type='quantitative' />
+            <column-instance column='[__tableau_internal_object_id__].[Departures_FA82F3B276AD4B37A9BA850B457EE96A]' derivation='Count' name='[__tableau_internal_object_id__].[cnt:Departures_FA82F3B276AD4B37A9BA850B457EE96A:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Date]' derivation='MDY' name='[md:Date:ok]' pivot='key' type='ordinal' />
+            <column-instance column='[AIRLINE]' derivation='None' name='[none:AIRLINE:nk]' pivot='key' type='nominal' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.08s6hox1krvjca1f1jj8t1pppcx5].[Airline (group)]'>
+            <groupfilter function='except' user:ui-domain='relevant' user:ui-enumeration='exclusive' user:ui-marker='enumerate'>
+              <groupfilter function='level-members' level='[Airline (group)]' />
+              <groupfilter function='union'>
+                <groupfilter function='member' level='[Airline (group)]' member='&quot;-&quot;' />
+                <groupfilter function='member' level='[Airline (group)]' member='&quot;Kalitta Charters&quot;' />
+                <groupfilter function='member' level='[Airline (group)]' member='&quot;Mountain Aviation&quot;' />
+                <groupfilter function='member' level='[Airline (group)]' member='&quot;SkyWest Airlines&quot;' />
+              </groupfilter>
+            </groupfilter>
+          </filter>
+          <filter class='categorical' column='[federated.08s6hox1krvjca1f1jj8t1pppcx5].[md:Date:ok]'>
+            <groupfilter function='union' user:ui-domain='relevant' user:ui-enumeration='inclusive' user:ui-marker='enumerate'>
+              <groupfilter function='member' level='[md:Date:ok]' member='20211220' />
+              <groupfilter function='member' level='[md:Date:ok]' member='20211221' />
+              <groupfilter function='member' level='[md:Date:ok]' member='20211222' />
+              <groupfilter function='member' level='[md:Date:ok]' member='20211223' />
+              <groupfilter function='member' level='[md:Date:ok]' member='20211224' />
+              <groupfilter function='member' level='[md:Date:ok]' member='20211225' />
+            </groupfilter>
+          </filter>
+          <filter class='categorical' column='[federated.08s6hox1krvjca1f1jj8t1pppcx5].[none:AIRLINE:nk]'>
+            <groupfilter function='union' user:ui-domain='relevant' user:ui-enumeration='inclusive' user:ui-marker='enumerate'>
+              <groupfilter function='member' level='[none:AIRLINE:nk]' member='&quot;-&quot;' />
+              <groupfilter function='member' level='[none:AIRLINE:nk]' member='&quot;Allegiant Air&quot;' />
+              <groupfilter function='member' level='[none:AIRLINE:nk]' member='&quot;Amazon Air&quot;' />
+              <groupfilter function='member' level='[none:AIRLINE:nk]' member='&quot;American Airlines&quot;' />
+              <groupfilter function='member' level='[none:AIRLINE:nk]' member='&quot;American Eagle&quot;' />
+              <groupfilter function='member' level='[none:AIRLINE:nk]' member='&quot;Delta Air Lines&quot;' />
+              <groupfilter function='member' level='[none:AIRLINE:nk]' member='&quot;Delta Connection&quot;' />
+              <groupfilter function='member' level='[none:AIRLINE:nk]' member='&quot;Delta Private Jets&quot;' />
+              <groupfilter function='member' level='[none:AIRLINE:nk]' member='&quot;FedEx&quot;' />
+              <groupfilter function='member' level='[none:AIRLINE:nk]' member='&quot;Frontier (Austin the Northern Mockingbird Livery)&quot;' />
+              <groupfilter function='member' level='[none:AIRLINE:nk]' member='&quot;Frontier (Cruz the Island Fox Livery)&quot;' />
+              <groupfilter function='member' level='[none:AIRLINE:nk]' member='&quot;Frontier (Mia the Dolphin Livery)&quot;' />
+              <groupfilter function='member' level='[none:AIRLINE:nk]' member='&quot;Frontier (Scarlet the Tanager Livery)&quot;' />
+              <groupfilter function='member' level='[none:AIRLINE:nk]' member='&quot;Frontier (Scout the Pine Marten Livery)&quot;' />
+              <groupfilter function='member' level='[none:AIRLINE:nk]' member='&quot;Frontier (Thunder the American Bison Livery)&quot;' />
+              <groupfilter function='member' level='[none:AIRLINE:nk]' member='&quot;Kalitta Charters&quot;' />
+              <groupfilter function='member' level='[none:AIRLINE:nk]' member='&quot;Mountain Aviation&quot;' />
+              <groupfilter function='member' level='[none:AIRLINE:nk]' member='&quot;NetJets&quot;' />
+              <groupfilter function='member' level='[none:AIRLINE:nk]' member='&quot;SkyWest Airlines&quot;' />
+              <groupfilter function='member' level='[none:AIRLINE:nk]' member='&quot;Southwest Airlines&quot;' />
+              <groupfilter function='member' level='[none:AIRLINE:nk]' member='&quot;United Airlines&quot;' />
+              <groupfilter function='member' level='[none:AIRLINE:nk]' member='&quot;United Express&quot;' />
+              <groupfilter function='member' level='[none:AIRLINE:nk]' member='&quot;UPS&quot;' />
+            </groupfilter>
+          </filter>
+          <slices>
+            <column>[federated.08s6hox1krvjca1f1jj8t1pppcx5].[none:AIRLINE:nk]</column>
+            <column>[federated.08s6hox1krvjca1f1jj8t1pppcx5].[md:Date:ok]</column>
+            <column>[federated.08s6hox1krvjca1f1jj8t1pppcx5].[Airline (group)]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='mark'>
+            <encoding attr='size-bar' field='[federated.08s6hox1krvjca1f1jj8t1pppcx5].[__tableau_internal_object_id__].[cnt:Departures_FA82F3B276AD4B37A9BA850B457EE96A:qk]' field-type='quantitative' max-size='1' min-size='0.005' type='centersize' />
+            <encoding attr='color' field='[federated.08s6hox1krvjca1f1jj8t1pppcx5].[__tableau_internal_object_id__].[cnt:Departures_FA82F3B276AD4B37A9BA850B457EE96A:qk]' palette='green_10_0' type='interpolated' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Bar' />
+            <encodings>
+              <color column='[federated.08s6hox1krvjca1f1jj8t1pppcx5].[__tableau_internal_object_id__].[cnt:Departures_FA82F3B276AD4B37A9BA850B457EE96A:qk]' />
+              <size column='[federated.08s6hox1krvjca1f1jj8t1pppcx5].[__tableau_internal_object_id__].[cnt:Departures_FA82F3B276AD4B37A9BA850B457EE96A:qk]' />
+            </encodings>
+          </pane>
+        </panes>
+        <rows>[federated.08s6hox1krvjca1f1jj8t1pppcx5].[__tableau_internal_object_id__].[cnt:Departures_FA82F3B276AD4B37A9BA850B457EE96A:qk]</rows>
+        <cols>([federated.08s6hox1krvjca1f1jj8t1pppcx5].[Airline (group)] / [federated.08s6hox1krvjca1f1jj8t1pppcx5].[md:Date:ok])</cols>
+      </table>
+      <simple-id uuid='{A99A6E77-19DD-4074-96CD-0AA801E24FA2}' />
+    </worksheet>
+    <worksheet name='Sheet 5'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run>Arriving Christmas Flights by Airline
+</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Arrivals (Des Moines Airline data following Thanksgiving 2021)' name='federated.19ml0qi0rxime311xogpl1v7b28u' />
+          </datasources>
+          <datasource-dependencies datasource='federated.19ml0qi0rxime311xogpl1v7b28u'>
+            <column caption='Airline' datatype='string' name='[AIRLINE]' role='dimension' type='nominal' />
+            <column datatype='string' name='[Airline (group)]' role='dimension' type='nominal'>
+              <calculation class='categorical-bin' column='[AIRLINE]' new-bin='true'>
+                <bin default-name='false' value='&quot;Delta&quot;'>
+                  <value>&quot;Delta Air Lines&quot;</value>
+                  <value>&quot;Delta Connection&quot;</value>
+                  <value>&quot;Delta Private Jets&quot;</value>
+                </bin>
+                <bin default-name='false' value='&quot;Frontier&quot;'>
+                  <value>&quot;Frontier (Austin the Northern Mockingbird Livery)&quot;</value>
+                  <value>&quot;Frontier (Cruz the Island Fox Livery)&quot;</value>
+                  <value>&quot;Frontier (Mia the Dolphin Livery)&quot;</value>
+                  <value>&quot;Frontier (Scarlet the Tanager Livery)&quot;</value>
+                  <value>&quot;Frontier (Scout the Pine Marten Livery)&quot;</value>
+                  <value>&quot;Frontier (Thunder the American Bison Livery)&quot;</value>
+                </bin>
+              </calculation>
+            </column>
+            <_.fcp.ObjectModelTableType.false...column caption='Arrivals' datatype='integer' name='[__tableau_internal_object_id__].[Arrivals_40E37514114C4AE890CE1E214C7B31F4]' role='measure' type='quantitative' />
+            <column datatype='date' name='[Date]' role='dimension' type='ordinal' />
+            <_.fcp.ObjectModelTableType.true...column caption='Arrivals' datatype='table' name='[__tableau_internal_object_id__].[Arrivals_40E37514114C4AE890CE1E214C7B31F4]' role='measure' type='quantitative' />
+            <column-instance column='[__tableau_internal_object_id__].[Arrivals_40E37514114C4AE890CE1E214C7B31F4]' derivation='Count' name='[__tableau_internal_object_id__].[cnt:Arrivals_40E37514114C4AE890CE1E214C7B31F4:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Date]' derivation='MDY' name='[md:Date:ok]' pivot='key' type='ordinal' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.19ml0qi0rxime311xogpl1v7b28u].[Airline (group)]'>
+            <groupfilter function='except' user:ui-domain='relevant' user:ui-enumeration='exclusive' user:ui-marker='enumerate'>
+              <groupfilter function='level-members' level='[Airline (group)]' />
+              <groupfilter function='union'>
+                <groupfilter function='member' level='[Airline (group)]' member='&quot;-&quot;' />
+                <groupfilter function='member' level='[Airline (group)]' member='&quot;Kalitta Charters&quot;' />
+                <groupfilter function='member' level='[Airline (group)]' member='&quot;Mountain Aviation&quot;' />
+                <groupfilter function='member' level='[Airline (group)]' member='&quot;Silver Airways&quot;' />
+                <groupfilter function='member' level='[Airline (group)]' member='&quot;SkyWest Airlines&quot;' />
+                <groupfilter function='member' level='[Airline (group)]' member='&quot;Wheels Up&quot;' />
+              </groupfilter>
+            </groupfilter>
+          </filter>
+          <filter class='categorical' column='[federated.19ml0qi0rxime311xogpl1v7b28u].[md:Date:ok]'>
+            <groupfilter function='union' user:ui-domain='relevant' user:ui-enumeration='inclusive' user:ui-marker='enumerate'>
+              <groupfilter function='member' level='[md:Date:ok]' member='20211220' />
+              <groupfilter function='member' level='[md:Date:ok]' member='20211221' />
+              <groupfilter function='member' level='[md:Date:ok]' member='20211222' />
+              <groupfilter function='member' level='[md:Date:ok]' member='20211223' />
+              <groupfilter function='member' level='[md:Date:ok]' member='20211224' />
+              <groupfilter function='member' level='[md:Date:ok]' member='20211225' />
+            </groupfilter>
+          </filter>
+          <slices>
+            <column>[federated.19ml0qi0rxime311xogpl1v7b28u].[md:Date:ok]</column>
+            <column>[federated.19ml0qi0rxime311xogpl1v7b28u].[Airline (group)]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Bar' />
+            <encodings>
+              <color column='[federated.19ml0qi0rxime311xogpl1v7b28u].[md:Date:ok]' />
+              <size column='[federated.19ml0qi0rxime311xogpl1v7b28u].[__tableau_internal_object_id__].[cnt:Arrivals_40E37514114C4AE890CE1E214C7B31F4:qk]' />
+            </encodings>
+          </pane>
+        </panes>
+        <rows>[federated.19ml0qi0rxime311xogpl1v7b28u].[__tableau_internal_object_id__].[cnt:Arrivals_40E37514114C4AE890CE1E214C7B31F4:qk]</rows>
+        <cols>([federated.19ml0qi0rxime311xogpl1v7b28u].[Airline (group)] / [federated.19ml0qi0rxime311xogpl1v7b28u].[md:Date:ok])</cols>
+      </table>
+      <simple-id uuid='{6015C1E3-7B6E-42BC-ABF6-29993E19CF08}' />
+    </worksheet>
+    <worksheet name='Sheet 6'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run>Cancelled Arriving Flights&#10;</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Arrivals (Des Moines Airline data following Thanksgiving 2021)' name='federated.19ml0qi0rxime311xogpl1v7b28u' />
+          </datasources>
+          <datasource-dependencies datasource='federated.19ml0qi0rxime311xogpl1v7b28u'>
+            <column caption='Airline' datatype='string' name='[AIRLINE]' role='dimension' type='nominal' />
+            <column datatype='date' name='[Date]' role='dimension' type='ordinal' />
+            <_.fcp.ObjectModelTableType.false...column caption='Arrivals' datatype='integer' name='[__tableau_internal_object_id__].[Arrivals_40E37514114C4AE890CE1E214C7B31F4]' role='measure' type='quantitative' />
+            <column caption='Status' datatype='string' name='[STATUS]' role='dimension' type='nominal' />
+            <_.fcp.ObjectModelTableType.true...column caption='Arrivals' datatype='table' name='[__tableau_internal_object_id__].[Arrivals_40E37514114C4AE890CE1E214C7B31F4]' role='measure' type='quantitative' />
+            <column-instance column='[__tableau_internal_object_id__].[Arrivals_40E37514114C4AE890CE1E214C7B31F4]' derivation='Count' name='[__tableau_internal_object_id__].[cnt:Arrivals_40E37514114C4AE890CE1E214C7B31F4:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Date]' derivation='MDY' name='[md:Date:ok]' pivot='key' type='ordinal' />
+            <column-instance column='[AIRLINE]' derivation='None' name='[none:AIRLINE:nk]' pivot='key' type='nominal' />
+            <column-instance column='[STATUS]' derivation='None' name='[none:STATUS:nk]' pivot='key' type='nominal' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.19ml0qi0rxime311xogpl1v7b28u].[md:Date:ok]'>
+            <groupfilter function='union' user:ui-domain='relevant' user:ui-enumeration='inclusive' user:ui-marker='enumerate'>
+              <groupfilter function='member' level='[md:Date:ok]' member='20211220' />
+              <groupfilter function='member' level='[md:Date:ok]' member='20211221' />
+              <groupfilter function='member' level='[md:Date:ok]' member='20211222' />
+              <groupfilter function='member' level='[md:Date:ok]' member='20211223' />
+              <groupfilter function='member' level='[md:Date:ok]' member='20211224' />
+              <groupfilter function='member' level='[md:Date:ok]' member='20211225' />
+            </groupfilter>
+          </filter>
+          <filter class='categorical' column='[federated.19ml0qi0rxime311xogpl1v7b28u].[none:STATUS:nk]'>
+            <groupfilter function='member' level='[none:STATUS:nk]' member='&quot;Canceled&quot;' user:ui-domain='relevant' user:ui-enumeration='inclusive' user:ui-marker='enumerate' />
+          </filter>
+          <slices>
+            <column>[federated.19ml0qi0rxime311xogpl1v7b28u].[md:Date:ok]</column>
+            <column>[federated.19ml0qi0rxime311xogpl1v7b28u].[none:STATUS:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='mark'>
+            <encoding attr='size-bar' field='[federated.19ml0qi0rxime311xogpl1v7b28u].[__tableau_internal_object_id__].[cnt:Arrivals_40E37514114C4AE890CE1E214C7B31F4:qk]' field-type='quantitative' max-size='1' min-size='0.005' type='centersize' />
+            <encoding attr='color' field='[federated.19ml0qi0rxime311xogpl1v7b28u].[__tableau_internal_object_id__].[cnt:Arrivals_40E37514114C4AE890CE1E214C7B31F4:qk]' palette='red_10_0' type='interpolated' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Square' />
+            <encodings>
+              <color column='[federated.19ml0qi0rxime311xogpl1v7b28u].[__tableau_internal_object_id__].[cnt:Arrivals_40E37514114C4AE890CE1E214C7B31F4:qk]' />
+              <text column='[federated.19ml0qi0rxime311xogpl1v7b28u].[__tableau_internal_object_id__].[cnt:Arrivals_40E37514114C4AE890CE1E214C7B31F4:qk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='has-stroke' value='false' />
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-line-first' value='true' />
+                <format attr='mark-labels-line-last' value='true' />
+                <format attr='mark-labels-range-min' value='true' />
+                <format attr='mark-labels-range-max' value='true' />
+                <format attr='mark-labels-mode' value='all' />
+                <format attr='mark-labels-range-scope' value='pane' />
+                <format attr='mark-labels-range-field' value='' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.19ml0qi0rxime311xogpl1v7b28u].[md:Date:ok]</rows>
+        <cols>([federated.19ml0qi0rxime311xogpl1v7b28u].[none:STATUS:nk] / [federated.19ml0qi0rxime311xogpl1v7b28u].[none:AIRLINE:nk])</cols>
+      </table>
+      <simple-id uuid='{0F6F1AD5-83DC-4C6F-A180-316EF2C8EAF3}' />
+    </worksheet>
+    <worksheet name='Sheet 7'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run>Cancelled Departing Flights&#10;</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Departures (Des Moines Airline data following Thanksgiving 2021)' name='federated.08s6hox1krvjca1f1jj8t1pppcx5' />
+          </datasources>
+          <datasource-dependencies datasource='federated.08s6hox1krvjca1f1jj8t1pppcx5'>
+            <column caption='Airline' datatype='string' name='[AIRLINE]' role='dimension' type='nominal' />
+            <column datatype='date' name='[Date]' role='dimension' type='ordinal' />
+            <_.fcp.ObjectModelTableType.false...column caption='Departures' datatype='integer' name='[__tableau_internal_object_id__].[Departures_FA82F3B276AD4B37A9BA850B457EE96A]' role='measure' type='quantitative' />
+            <column caption='Status' datatype='string' name='[STATUS]' role='dimension' type='nominal' />
+            <_.fcp.ObjectModelTableType.true...column caption='Departures' datatype='table' name='[__tableau_internal_object_id__].[Departures_FA82F3B276AD4B37A9BA850B457EE96A]' role='measure' type='quantitative' />
+            <column-instance column='[__tableau_internal_object_id__].[Departures_FA82F3B276AD4B37A9BA850B457EE96A]' derivation='Count' name='[__tableau_internal_object_id__].[cnt:Departures_FA82F3B276AD4B37A9BA850B457EE96A:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Date]' derivation='MDY' name='[md:Date:ok]' pivot='key' type='ordinal' />
+            <column-instance column='[AIRLINE]' derivation='None' name='[none:AIRLINE:nk]' pivot='key' type='nominal' />
+            <column-instance column='[STATUS]' derivation='None' name='[none:STATUS:nk]' pivot='key' type='nominal' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.08s6hox1krvjca1f1jj8t1pppcx5].[md:Date:ok]'>
+            <groupfilter function='union' user:ui-domain='relevant' user:ui-enumeration='inclusive' user:ui-marker='enumerate'>
+              <groupfilter function='member' level='[md:Date:ok]' member='20211220' />
+              <groupfilter function='member' level='[md:Date:ok]' member='20211221' />
+              <groupfilter function='member' level='[md:Date:ok]' member='20211222' />
+              <groupfilter function='member' level='[md:Date:ok]' member='20211223' />
+              <groupfilter function='member' level='[md:Date:ok]' member='20211224' />
+              <groupfilter function='member' level='[md:Date:ok]' member='20211225' />
+            </groupfilter>
+          </filter>
+          <filter class='categorical' column='[federated.08s6hox1krvjca1f1jj8t1pppcx5].[none:STATUS:nk]'>
+            <groupfilter function='member' level='[none:STATUS:nk]' member='&quot;Canceled&quot;' user:ui-domain='relevant' user:ui-enumeration='inclusive' user:ui-marker='enumerate' />
+          </filter>
+          <slices>
+            <column>[federated.08s6hox1krvjca1f1jj8t1pppcx5].[md:Date:ok]</column>
+            <column>[federated.08s6hox1krvjca1f1jj8t1pppcx5].[none:STATUS:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='mark'>
+            <encoding attr='size-bar' field='[federated.08s6hox1krvjca1f1jj8t1pppcx5].[__tableau_internal_object_id__].[cnt:Departures_FA82F3B276AD4B37A9BA850B457EE96A:qk]' field-type='quantitative' max-size='1' min-size='0.005' type='centersize' />
+            <encoding attr='color' field='[federated.08s6hox1krvjca1f1jj8t1pppcx5].[__tableau_internal_object_id__].[cnt:Departures_FA82F3B276AD4B37A9BA850B457EE96A:qk]' palette='green_10_0' type='interpolated' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Square' />
+            <encodings>
+              <color column='[federated.08s6hox1krvjca1f1jj8t1pppcx5].[__tableau_internal_object_id__].[cnt:Departures_FA82F3B276AD4B37A9BA850B457EE96A:qk]' />
+              <text column='[federated.08s6hox1krvjca1f1jj8t1pppcx5].[__tableau_internal_object_id__].[cnt:Departures_FA82F3B276AD4B37A9BA850B457EE96A:qk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='has-stroke' value='false' />
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-line-first' value='true' />
+                <format attr='mark-labels-line-last' value='true' />
+                <format attr='mark-labels-range-min' value='true' />
+                <format attr='mark-labels-range-max' value='true' />
+                <format attr='mark-labels-mode' value='all' />
+                <format attr='mark-labels-range-scope' value='pane' />
+                <format attr='mark-labels-range-field' value='' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.08s6hox1krvjca1f1jj8t1pppcx5].[md:Date:ok]</rows>
+        <cols>([federated.08s6hox1krvjca1f1jj8t1pppcx5].[none:STATUS:nk] / [federated.08s6hox1krvjca1f1jj8t1pppcx5].[none:AIRLINE:nk])</cols>
+      </table>
+      <simple-id uuid='{99CCC04E-A7ED-4EB6-A2B8-0225385A1182}' />
+    </worksheet>
+  </worksheets>
+  <dashboards>
+    <dashboard name='Dashboard 1'>
+      <style />
+      <size maxheight='1200' maxwidth='2200' minheight='1200' minwidth='2200' sizing-mode='fixed' />
+      <zones>
+        <zone h='40917' id='3' name='Sheet 2' w='32409' x='50818' y='14167' />
+        <zone h='10917' id='4' name='Sheet 2' pane-specification-id='0' param='[federated.19ml0qi0rxime311xogpl1v7b28u].[__tableau_internal_object_id__].[cnt:Arrivals_40E37514114C4AE890CE1E214C7B31F4:qk]' type-v2='size' w='4273' x='78273' y='39667' />
+        <zone h='35667' id='5' name='Sheet 3' w='32545' x='50818' y='61333' />
+        <zone h='10083' id='6' name='Sheet 3' pane-specification-id='0' param='[federated.08s6hox1krvjca1f1jj8t1pppcx5].[__tableau_internal_object_id__].[cnt:Departures_FA82F3B276AD4B37A9BA850B457EE96A:qk]' type-v2='size' w='4136' x='78227' y='82917' />
+        <zone h='38750' id='7' name='Sheet 4' w='45182' x='2364' y='58250' />
+        <zone h='37800' id='8' name='Sheet 5' w='44955' x='2182' y='17100' />
+        <zone h='23833' id='9' name='Sheet 6' w='17455' x='83864' y='17750' />
+        <zone h='18583' id='10' name='Sheet 7' w='14545' x='84182' y='65167' />
+        <zone forceUpdate='true' h='10750' id='11' type-v2='text' w='65045' x='17955' y='750'>
+          <formatted-text>
+            <run fontalignment='1' fontsize='36'>Arriving and Departing Flights Christmas Week 2021</run>
+            <run fontalignment='1'>Æ&#10;</run>
+            <run fontalignment='1' fontsize='26'>Des Moines Airport</run>
+          </formatted-text>
+        </zone>
+        <zone forceUpdate='true' h='5750' id='12' type-v2='text' w='46636' x='50909' y='54500'>
+          <formatted-text>
+            <run fontsize='8'>Flight data to and from DSM indicate that during the week of Christmas there were only 9 cancelled flights in total. In total for the year of 2021, 103 flights were cancelled. This means that almost 10% of these cancelled flights took place during the week of Christmas.</run>
+          </formatted-text>
+        </zone>
+        <zone forceUpdate='true' h='2667' id='13' type-v2='text' w='42682' x='4409' y='55583'>
+          <formatted-text>
+            <run fontsize='8'>The data for both arriving and departing fights show that Delta Airlines had the most planes connecting between Des Moines and other airports during the week of Christmas 2021.</run>
+          </formatted-text>
+        </zone>
+        <zone h='2917' id='14' type-v2='text' w='4545' x='94773' y='1250'>
+          <formatted-text>
+            <run>Emily Huston&#10;4/9/2022</run>
+          </formatted-text>
+        </zone>
+        <zone h='2500' id='15' type-v2='text' w='7273' x='87591' y='97750'>
+          <formatted-text>
+            <run>Sources: flightradar24.com</run>
+          </formatted-text>
+        </zone>
+      </zones>
+      <devicelayouts>
+        <devicelayout auto-generated='true' name='Phone'>
+          <size maxheight='2150' minheight='2150' sizing-mode='vscroll' />
+          <zones>
+            <zone h='100000' id='23' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='98666' id='22' param='vert' type-v2='layout-flow' w='99272' x='364' y='667'>
+                <zone forceUpdate='true' h='10750' id='11' type-v2='text' w='65045' x='17955' y='750'>
+                  <formatted-text>
+                    <run fontalignment='1' fontsize='36'>Arriving and Departing Flights Christmas Week 2021</run>
+                    <run fontalignment='1'>Æ&#10;</run>
+                    <run fontalignment='1' fontsize='26'>Des Moines Airport</run>
+                  </formatted-text>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone h='2917' id='14' type-v2='text' w='4545' x='94773' y='1250'>
+                  <formatted-text>
+                    <run>Emily Huston&#10;4/9/2022</run>
+                  </formatted-text>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='40917' id='3' is-fixed='true' name='Sheet 2' w='32409' x='50818' y='14167'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone h='10917' id='4' name='Sheet 2' pane-specification-id='0' param='[federated.19ml0qi0rxime311xogpl1v7b28u].[__tableau_internal_object_id__].[cnt:Arrivals_40E37514114C4AE890CE1E214C7B31F4:qk]' type-v2='size' w='4273' x='78273' y='39667'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='37800' id='8' is-fixed='true' name='Sheet 5' w='44955' x='2182' y='17100'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='23833' id='9' is-fixed='true' name='Sheet 6' w='17455' x='83864' y='17750'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone forceUpdate='true' h='5750' id='12' type-v2='text' w='46636' x='50909' y='54500'>
+                  <formatted-text>
+                    <run fontsize='8'>Flight data to and from DSM indicate that during the week of Christmas there were only 9 cancelled flights in total. In total for the year of 2021, 103 flights were cancelled. This means that almost 10% of these cancelled flights took place during the week of Christmas.</run>
+                  </formatted-text>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone forceUpdate='true' h='2667' id='13' type-v2='text' w='42682' x='4409' y='55583'>
+                  <formatted-text>
+                    <run fontsize='8'>The data for both arriving and departing fights show that Delta Airlines had the most planes connecting between Des Moines and other airports during the week of Christmas 2021.</run>
+                  </formatted-text>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='38750' id='7' is-fixed='true' name='Sheet 4' w='45182' x='2364' y='58250'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='35667' id='5' is-fixed='true' name='Sheet 3' w='32545' x='50818' y='61333'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone h='10083' id='6' name='Sheet 3' pane-specification-id='0' param='[federated.08s6hox1krvjca1f1jj8t1pppcx5].[__tableau_internal_object_id__].[cnt:Departures_FA82F3B276AD4B37A9BA850B457EE96A:qk]' type-v2='size' w='4136' x='78227' y='82917'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='223' h='18583' id='10' is-fixed='true' name='Sheet 7' w='14545' x='84182' y='65167'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone h='2500' id='15' type-v2='text' w='7273' x='87591' y='97750'>
+                  <formatted-text>
+                    <run>Sources: flightradar24.com</run>
+                  </formatted-text>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+              </zone>
+              <zone-style>
+                <format attr='border-color' value='#000000' />
+                <format attr='border-style' value='none' />
+                <format attr='border-width' value='0' />
+                <format attr='margin' value='8' />
+              </zone-style>
+            </zone>
+          </zones>
+        </devicelayout>
+      </devicelayouts>
+      <simple-id uuid='{96723949-0316-4E07-BEC0-748A66F0A3F5}' />
+    </dashboard>
+  </dashboards>
+  <windows source-height='114'>
+    <window class='worksheet' name='Sheet 1'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='2' param='[federated.0kms3y20tka1201dfawz80622qje].[:Measure Names]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{B75D196B-9243-4A27-8DC8-C229FBADFE66}' />
+    </window>
+    <window class='dashboard' maximized='true' name='Dashboard 1'>
+      <viewpoints>
+        <viewpoint name='Sheet 2'>
+          <zoom type='entire-view' />
+          <default-map-tool-selection tool='1' />
+        </viewpoint>
+        <viewpoint name='Sheet 3'>
+          <zoom type='entire-view' />
+          <default-map-tool-selection tool='1' />
+        </viewpoint>
+        <viewpoint name='Sheet 4'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='Sheet 5'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='Sheet 6' />
+        <viewpoint name='Sheet 7' />
+      </viewpoints>
+      <active id='-1' />
+      <simple-id uuid='{03308366-3CC3-4FF5-8E8F-E044E0D87C51}' />
+    </window>
+    <window class='worksheet' name='Sheet 2'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.19ml0qi0rxime311xogpl1v7b28u].[__tableau_internal_object_id__].[cnt:Arrivals_40E37514114C4AE890CE1E214C7B31F4:qk]' type='size' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{115A423B-5A5E-4658-8069-738490733172}' />
+    </window>
+    <window class='worksheet' name='Sheet 3'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.08s6hox1krvjca1f1jj8t1pppcx5].[__tableau_internal_object_id__].[cnt:Departures_FA82F3B276AD4B37A9BA850B457EE96A:qk]' type='size' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <default-map-tool-selection tool='1' />
+      </viewpoint>
+      <simple-id uuid='{D5C6C09A-5311-4CA9-B346-2A292A91D366}' />
+    </window>
+    <window class='worksheet' name='Sheet 4'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.08s6hox1krvjca1f1jj8t1pppcx5].[__tableau_internal_object_id__].[cnt:Departures_FA82F3B276AD4B37A9BA850B457EE96A:qk]' type='color' />
+            <card pane-specification-id='0' param='[federated.08s6hox1krvjca1f1jj8t1pppcx5].[__tableau_internal_object_id__].[cnt:Departures_FA82F3B276AD4B37A9BA850B457EE96A:qk]' type='size' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{9BBCBA3E-05B1-4704-BDD1-627F97D12572}' />
+    </window>
+    <window class='worksheet' name='Sheet 5'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.19ml0qi0rxime311xogpl1v7b28u].[md:Date:ok]' type='color' />
+            <card pane-specification-id='0' param='[federated.19ml0qi0rxime311xogpl1v7b28u].[__tableau_internal_object_id__].[cnt:Arrivals_40E37514114C4AE890CE1E214C7B31F4:qk]' type='size' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{73C97C6E-0812-4B89-8B55-CE44B8B49522}' />
+    </window>
+    <window class='worksheet' name='Sheet 6'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.19ml0qi0rxime311xogpl1v7b28u].[__tableau_internal_object_id__].[cnt:Arrivals_40E37514114C4AE890CE1E214C7B31F4:qk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{92A081E8-2BE4-4593-B2CE-1BA7B9EAF842}' />
+    </window>
+    <window class='worksheet' name='Sheet 7'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.08s6hox1krvjca1f1jj8t1pppcx5].[__tableau_internal_object_id__].[cnt:Departures_FA82F3B276AD4B37A9BA850B457EE96A:qk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{B0EB6009-48BA-44EF-A6AD-9FDB03A70415}' />
+    </window>
+  </windows>
+</workbook>
