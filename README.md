@@ -19,6 +19,6 @@ I love spicy food!
 # Final Project
 
 ### Abstract: 
-The United States is home to over 400 National Parks scattered around the country. These parks each come with a unique landscape and story that bring millions of people to them each year. With each park offering different sights and services, this project aims to discover which parks are the most popular and why.
+The United States is home to over 400 National Parks scattered around the country. These parks each come with a unique landscape and story that bring millions of people to them each year. With each park offering different sights and services, this project aims to discover which parks are the most popular and what they have to offer.
 
 [The Temporary Population of National Parks](https://erhuston.github.io/LA558_2022/web/finalproject.html "The Temporary Population of National Parks")
