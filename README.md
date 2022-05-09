@@ -8,7 +8,7 @@ I love spicy food!
 # Assignments 
 [Assignment 1](https://github.com/erhuston/LA558_2022/blob/main/web/assignment1.html "Assignment 1")
 
-[Assignment 2a](https://github.com/erhuston/LA558_2022/blob/main/web/assignment2a.html "Assignment 2a")
+[Assignment 2a](https://erhuston.github.io/LA558_2022/web/assignment2a.html "Assignment 2a")
 
 [Assignment 2b](https://github.com/erhuston/LA558_2022/blob/main/web/assignment2b.html "Assignment 2b")
 
