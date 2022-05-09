@@ -1,9 +1,8 @@
 # LA558 2022
-LA 558 Web mapping courses 2022
 
-Emily Huston's Site
+### Emily Huston's Site
 
-I love spicy food!
+I am a Master's student working toward my degree in Urban Design.
 
 # Assignments 
 [Assignment 1](https://erhuston.github.io/LA558_2022/web/assignment1.html "Assignment 1")
