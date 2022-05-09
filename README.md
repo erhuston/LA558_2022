@@ -17,4 +17,8 @@ I love spicy food!
 [Assignment 4](https://erhuston.github.io/LA558_2022/web/assignment_4.html "Assignment 4")
 
 # Final Project
+
+### Abstract: 
+The United States is home to over 400 National Parks scattered around the country. These parks each come with a unique landscape and story that bring millions of people to them each year. With each park offering different sights and services, this project aims to discover which parks are the most popular and why.
+
 [The Temporary Population of National Parks](https://erhuston.github.io/LA558_2022/web/finalproject.html "The Temporary Population of National Parks")
