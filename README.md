@@ -16,4 +16,4 @@ I love spicy food!
 
 [Assignment 4](https://github.com/erhuston/LA558_2022/blob/main/web/assignment_4.html "Assignment 4")
 
-#Final Project
+# Final Project
